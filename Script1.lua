@@ -286,7 +286,7 @@ if game.PlaceId == 11545598432 then
     
     
     Tab:AddButton({
-        Name = "Auto Quest(Not Working Now)",
+        Name = "Auto Quest(Not Put Now)",
         Callback = function(Value)
             getgenv().autoSummon10 = Value
             autoSummon10()	
