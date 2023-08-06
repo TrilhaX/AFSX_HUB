@@ -81,6 +81,25 @@ if game.PlaceId == 11545598432 then
         
     end
     
+
+
+    function autoHit()
+        while getgenv().autoHit == true do
+            local ohString1 = "Equip"
+            local ohString2 = "Strength"
+            local ohBoolean3 = true
+
+            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
+            local ohString1 = "TrainStat"
+            local ohString2 = "Strength"
+            
+            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+
+        end
+    end 
+
+
+
     
     function autoUpFor()
         while getgenv().autoUpFor == true do
@@ -120,8 +139,8 @@ if game.PlaceId == 11545598432 then
         end
     end 
     
-    function autoUpDura()
-        while getgenv().autoUpDura == true do
+    function autoDura()
+        while getgenv().autoDura == true do
             local ohString1 = "TrainStat"
             local ohString2 = "Durability"
     
@@ -130,8 +149,8 @@ if game.PlaceId == 11545598432 then
         end
     end 
     
-    function autoDura()
-        while getgenv().autoDura == true do
+    function autoUpDura()
+        while getgenv().autoUpDura == true do
             local ohString1 = "Upgrade"
             local ohString2 = "Durability"
     
@@ -141,26 +160,376 @@ if game.PlaceId == 11545598432 then
     end 
     
     
-    
-    function autoSummon50()
-        while getgenv().autoSummon50 == true do
-    
+    function autoGet()
+        while getgenv().autoGet == true do
+            local ohString1 = "ClaimAchievement"
+            local ohString2 = "power_1"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
             wait(1)
-        end
-    end
-    
-    function autoSummon25()
-        while getgenv().autoSummon25 == true do
-    
+            local ohString1 = "ClaimAchievement"
+            local ohString2 = "power_2"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
             wait(1)
-        end
-    end
-    
-    function autoSummon10()
-        while getgenv().autoSummon10 == true do
-    
+            local ohString1 = "ClaimAchievement"
+            local ohString2 = "power_3"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
             wait(1)
-        end
+            local ohString1 = "ClaimAchievement"
+            local ohString2 = "power_4"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString1 = "ClaimAchievement"
+            local ohString2 = "power_5"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString1 = "ClaimAchievement"
+            local ohString2 = "power_6"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString1 = "ClaimAchievement"
+            local ohString2 = "power_7"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString1 = "ClaimAchievement"
+            local ohString2 = "power_8"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString1 = "ClaimAchievement"
+            local ohString2 = "power_9"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString1 = "ClaimAchievement"
+            local ohString2 = "power_10"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString1 = "ClaimAchievement"
+            local ohString2 = "power_11"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)          
+            local ohString2 = "power_12"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)            
+            local ohString2 = "power_13"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)            local ohString1 = "ClaimAchievement"
+            local ohString2 = "power_14"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)            local ohString1 = "ClaimAchievement"
+            local ohString2 = "power_15"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)            local ohString1 = "ClaimAchievement"
+            local ohString2 = "power_16"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)            local ohString1 = "ClaimAchievement"
+            local ohString2 = "power_17"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "power_18"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "power_19"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "power_20"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)   
+            local ohString2 = "power_21"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)   
+            local ohString2 = "power_22"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)   
+            local ohString2 = "power_23"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)   
+            local ohString2 = "power_24"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)   
+            local ohString2 = "power_25"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            
+            local ohString2 = "quest_1"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "quest_2"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "quest_3"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "quest_4"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "quest_5"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "quest_6"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "quest_7"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "quest_8"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "quest_9"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "quest_10"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "quest_11"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "quest_1"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "quest_1"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "quest_2"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "quest_3"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "quest_4"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "quest_5"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "quest_6"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "quest_7"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "quest_8"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "quest_9"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "quest_10"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "quest_11"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "reputation_1"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "reputation_2"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "reputation_3"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "reputation_4"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "reputation_5"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+
+            local ohString2 = "reputation_6"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+
+            local ohString2 = "reputation_7"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+
+            local ohString2 = "reputation_8"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+
+            local ohString2 = "reputation_9"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+
+            local ohString2 = "reputation_10"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "reputation_11"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "reputation_12"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "reputation_13"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "reputation_14"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "reputation_15"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "reputation_16"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "reputation_17"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "reputation_18"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "reputation_19"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+
+
+            local ohString2 = "boss_1"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "boss_2"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "boss_3"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "boss_4"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "boss_5"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "boss_6"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "boss_7"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "boss_8"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "boss_9"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "boss_10"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "boss_11"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)            
+            local ohString2 = "boss_12"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)           
+             local ohString2 = "boss_13"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)            
+            local ohString2 = "boss_14"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+        
+            local ohString2 = "champions_1"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "champions_2"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "champions_3"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "champions_4"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+            local ohString2 = "champions_5"
+            
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(1)
+        
+        
+        
+        end  
     end
     
     
@@ -300,35 +669,14 @@ if game.PlaceId == 11545598432 then
         PremiumOnly = false
     })
     
-    Tab:AddButton({
-        Name = "Auto Get 10(Not Working Now)",
+    Tab:AddToggle({
+        Name = "Auto Get All",
+        Default = false,
         Callback = function(Value)
-            getgenv().autoSummon10 = Value
-            autoSummon10()	
+            getgenv().autoGet = Value
+            autoGet()	
         end    
     })
-    
-    
-    Tab:AddButton({
-        Name = "Auto Get 25(Not Working Now)",
-        Callback = function(Value)
-            getgenv().autoSummon25 = Value
-            autoSummon25()	
-        end    
-    })
-    
-    
-    Tab:AddButton({
-        Name = "Auto Get 50(Not Working Now)",
-        Callback = function(Value)
-            getgenv().autoSummon50 = Value
-            autoSummon50()	
-        end    
-    })
-    
-    
-    
-    
     
     
     local Tab = Window:MakeTab({
@@ -364,7 +712,20 @@ if game.PlaceId == 11545598432 then
     })
     
     
+    local Tab = Window:MakeTab({
+        Name = "Misc",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
     
+    Tab:AddToggle({
+        Name = "Auto Hit(OP)",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoHit = Value
+            autoHit()	
+        end    
+    })
     
     
     
