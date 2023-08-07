@@ -1226,7 +1226,7 @@ end
         Name = "Auto Use Skill T",
         Default = false,
         Callback = function(Value)
-            getgenv().autoSkillT = Value
+            wait().autoSkillT = Value
             autoSkillT()
         end    
     })
