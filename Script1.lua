@@ -679,8 +679,8 @@ function autoTitan()
     local ohString1 = "TrainStat"
     local ohString2 = "Sword"
 
-    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)g2)
-end
+    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+    end
 end
 
 
@@ -733,6 +733,29 @@ function autoFreeza()
     game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
 end
 end
+
+
+function autoPain()
+    while getgenv().autoPain == true do
+    local ohString1 = "Prompt"
+    local ohString2 = "c1db55f7-96e7-4899-b419-d0f9ee0bcfcb"
+        
+    game:GetService("ReplicatedStorage").Events["Prompt/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2064.81982, 1220.37915, -1485.34375, 0.710825622, 2.82194321e-08, 0.703368247, 5.52249246e-10, 1, -4.0678529e-08, -0.703368247, 2.93037754e-08, 0.710825622)
+    wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+    local ohString1 = "Equip"
+    local ohString2 = "Sword"
+    local ohBoolean3 = true
+
+    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
+    local ohString1 = "TrainStat"
+    local ohString2 = "Sword"
+
+    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+end
+end
+
+
 
 function autoSkillZ()
     while wait().autoSkillZ == true do 
@@ -1135,6 +1158,16 @@ end
             autoFreeza()
         end    
     })
+
+    Tab:AddToggle({
+        Name = "Auto Kill Pain",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoPain = Value
+            autoPain()
+        end    
+    })
+
 
 
     
