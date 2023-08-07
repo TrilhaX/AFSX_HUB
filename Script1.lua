@@ -582,7 +582,7 @@ game:GetService("ReplicatedStorage").Events["Prompt/RemoteFunction"]:InvokeServe
     function TeleportT()
         while getgenv().TeleportT == true do
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-162.986862, 14.2267799, 68.0088501, 0.810382128, 0, 0.585901737, 0, 1, 0, -0.585901737, 0, 0.810382128)
-        wait(0.000000000000000000000000000000000000000000000001)
+        wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
         local ohString1 = "Equip"
         local ohString2 = "Strength"
         local ohBoolean3 = true
@@ -599,7 +599,7 @@ game:GetService("ReplicatedStorage").Events["Prompt/RemoteFunction"]:InvokeServe
     function TeleportF()
         while getgenv().TeleportF == true do
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6.02720022, 57.9452477, -220.701096, -0.258864403, 0, 0.965913713, 0, 1, 0, -0.965913713, 0, -0.258864403)
-        wait(0.000000000000000000000000000000000000000000000001)
+        wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
         local ohString1 = "StartQuest"
         local ohString2 = "FirstQuest"
 
@@ -613,13 +613,13 @@ game:GetService("ReplicatedStorage").Events["Prompt/RemoteFunction"]:InvokeServe
 
     function TeleporteE()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-195.236145, 14.7526369, -9.80304146, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-        wait(0.000000000000000000000000000000000000000000000001)
+        wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
     end
 
     function autoMon()
         while getgenv().autoMon == true do
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1558.55933, 24.4332237, -170.542786, -0.833271444, -1.34692639e-08, 0.552864134, -3.0353366e-08, 1, -2.13855973e-08, -0.552864134, -3.46012925e-08, -0.833271444)
-        wait(0.000000000000000000000000000000000000000000000001)
+        wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
         local ohString1 = "Equip"
         local ohString2 = "Strength"
         local ohBoolean3 = true
@@ -636,7 +636,7 @@ end
 function autoOver()
     while getgenv().autoOver == true do
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-276.370972, -631.597534, 877.319397, 0.473914742, 1.73955197e-08, 0.88057071, 9.80860264e-08, 1, -7.25437843e-08, -0.88057071, 1.20751253e-07, 0.473914742)
-    wait(0.000000000000000000000000000000000000000000000001)
+    wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
     local ohString1 = "Equip"
     local ohString2 = "Strength"
     local ohBoolean3 = true
@@ -653,7 +653,7 @@ end
 function autoShukaku()
     while getgenv().autoShukaku == true do
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1549.44104, 14.0959501, -587.82074, 0.932023108, -8.32961007e-08, -0.362398803, 1.01528357e-07, 1, 3.12657633e-08, 0.362398803, -6.59341737e-08, 0.932023108)
-    wait(0.000000000000000000000000000000000000000000000001)
+    wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
     local ohString1 = "Equip"
     local ohString2 = "Strength"
     local ohBoolean3 = true
@@ -670,7 +670,7 @@ end
 function autoTitan()
     while getgenv().autoTitan == true do
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1964.5343, 175.598969, -2759.64551, -0.984346747, 6.97201941e-08, 0.176242813, 7.95054618e-08, 1, 4.8460123e-08, -0.176242813, 6.17138269e-08, -0.984346747)
-    wait(0.000000000000000000000000000000000000000000000001)
+    wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
     local ohString1 = "Equip"
     local ohString2 = "Strength"
     local ohBoolean3 = true
@@ -687,7 +687,7 @@ end
 function autoArlong()
     while getgenv().autoArlong == true do
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1964.5343, 175.598969, -2759.64551, -0.984346747, 6.97201941e-08, 0.176242813, 7.95054618e-08, 1, 4.8460123e-08, -0.176242813, 6.17138269e-08, -0.984346747)
-    wait(0.000000000000000000000000000000000000000000000001)
+    wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
     local ohString1 = "Equip"
     local ohString2 = "Strength"
     local ohBoolean3 = true
@@ -704,7 +704,7 @@ end
 function autoHand()
     while getgenv().autoHand == true do
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-705.300049, 174.114334, -2252.47241, 0.860636413, 2.75834786e-08, 0.509219944, -2.6624154e-09, 1, -4.96683334e-08, -0.509219944, 4.13906207e-08, 0.860636413)
-    wait(0.000000000000000000000000000000000000000000000001)
+    wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
     local ohString1 = "Equip"
     local ohString2 = "Strength"
     local ohBoolean3 = true
@@ -715,6 +715,30 @@ function autoHand()
     
     game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
 end
+end
+
+
+function autoFreeza()
+    while getgenv().autoFreeza == true do
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1177.02209, 34.8487778, 1824.94312, 0.196345195, 6.97012155e-08, 0.980534852, 1.28829813e-09, 1, -7.13428676e-08, -0.980534852, 1.52710502e-08, 0.196345195)
+    wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+    local ohString1 = "Equip"
+    local ohString2 = "Strength"
+    local ohBoolean3 = true
+
+    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
+    local ohString1 = "TrainStat"
+    local ohString2 = "Strength"
+    
+    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+end
+end
+
+function autoSkillZ()
+    while getgenv().autoSkillZ == true do 
+        game:GetService('VirtualInputManager'):SendKeyEvent(true,'Z',false,game)
+        wait(1)
+        end
 end
 
 
@@ -1030,6 +1054,26 @@ end
             autoHand()
         end    
     })
+
+    
+    local Tab = Window:MakeTab({
+        Name = "Auto Use Skill",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+    
+
+    Tab:AddToggle({
+        Name = "Auto Use Skill Z",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoUseSkillZ = Value
+            autoUseSkillZ()
+        end    
+    })
+
+
+
 
 
     for i,v in pairs(getconnections(game.Players.LocalPlayer.Idled)) do
