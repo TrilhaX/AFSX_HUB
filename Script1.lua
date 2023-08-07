@@ -801,7 +801,7 @@ end
 function autoSkillT()
     while wait().autoSkillT == true do 
         game:GetService('VirtualInputManager'):SendKeyEvent(true,'T',false,game)
-        wait(1)
+        wait(10)
         end
 end
 
