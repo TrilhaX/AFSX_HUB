@@ -735,7 +735,7 @@ end
 end
 
 function autoSkillZ()
-    while getgenv().autoSkillZ == true do 
+    while wait().autoSkillZ == true do 
         game:GetService('VirtualInputManager'):SendKeyEvent(true,'Z',false,game)
         wait(1)
         end
@@ -799,8 +799,9 @@ end
 
 
 function autoSkillT()
-    while getgenv().autoSkillT == true do 
+    while wait().autoSkillT == true do 
         game:GetService('VirtualInputManager'):SendKeyEvent(true,'T',false,game)
+
         end
 end
 
