@@ -801,7 +801,6 @@ end
 function autoSkillT()
     while getgenv().autoSkillT == true do 
         game:GetService('VirtualInputManager'):SendKeyEvent(true,'T',false,game)
-        wait(1)
         end
 end
 
