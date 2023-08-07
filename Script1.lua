@@ -621,13 +621,13 @@ game:GetService("ReplicatedStorage").Events["Prompt/RemoteFunction"]:InvokeServe
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1558.55933, 24.4332237, -170.542786, -0.833271444, -1.34692639e-08, 0.552864134, -3.0353366e-08, 1, -2.13855973e-08, -0.552864134, -3.46012925e-08, -0.833271444)
         wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
         local ohString1 = "Equip"
-        local ohString2 = "Strength"
+        local ohString2 = "Sword"
         local ohBoolean3 = true
 
         game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
         local ohString1 = "TrainStat"
-        local ohString2 = "Strength"
-        
+        local ohString2 = "Sword"
+
         game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
     end
 end
@@ -638,13 +638,13 @@ function autoOver()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-276.370972, -631.597534, 877.319397, 0.473914742, 1.73955197e-08, 0.88057071, 9.80860264e-08, 1, -7.25437843e-08, -0.88057071, 1.20751253e-07, 0.473914742)
     wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
     local ohString1 = "Equip"
-    local ohString2 = "Strength"
+    local ohString2 = "Sword"
     local ohBoolean3 = true
 
     game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
     local ohString1 = "TrainStat"
-    local ohString2 = "Strength"
-    
+    local ohString2 = "Sword"
+
     game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
 end
 end
@@ -655,13 +655,13 @@ function autoShukaku()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1549.44104, 14.0959501, -587.82074, 0.932023108, -8.32961007e-08, -0.362398803, 1.01528357e-07, 1, 3.12657633e-08, 0.362398803, -6.59341737e-08, 0.932023108)
     wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
     local ohString1 = "Equip"
-    local ohString2 = "Strength"
+    local ohString2 = "Sword"
     local ohBoolean3 = true
 
     game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
     local ohString1 = "TrainStat"
-    local ohString2 = "Strength"
-    
+    local ohString2 = "Sword"
+
     game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
 end
 end
@@ -672,14 +672,14 @@ function autoTitan()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1964.5343, 175.598969, -2759.64551, -0.984346747, 6.97201941e-08, 0.176242813, 7.95054618e-08, 1, 4.8460123e-08, -0.176242813, 6.17138269e-08, -0.984346747)
     wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
     local ohString1 = "Equip"
-    local ohString2 = "Strength"
+    local ohString2 = "Sword"
     local ohBoolean3 = true
 
     game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
     local ohString1 = "TrainStat"
-    local ohString2 = "Strength"
-    
-    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+    local ohString2 = "Sword"
+
+    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)g2)
 end
 end
 
@@ -689,13 +689,13 @@ function autoArlong()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1964.5343, 175.598969, -2759.64551, -0.984346747, 6.97201941e-08, 0.176242813, 7.95054618e-08, 1, 4.8460123e-08, -0.176242813, 6.17138269e-08, -0.984346747)
     wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
     local ohString1 = "Equip"
-    local ohString2 = "Strength"
+    local ohString2 = "Sword"
     local ohBoolean3 = true
 
     game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
     local ohString1 = "TrainStat"
-    local ohString2 = "Strength"
-    
+    local ohString2 = "Sword"
+
     game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
 end
 end
@@ -706,13 +706,13 @@ function autoHand()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-705.300049, 174.114334, -2252.47241, 0.860636413, 2.75834786e-08, 0.509219944, -2.6624154e-09, 1, -4.96683334e-08, -0.509219944, 4.13906207e-08, 0.860636413)
     wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
     local ohString1 = "Equip"
-    local ohString2 = "Strength"
+    local ohString2 = "Sword"
     local ohBoolean3 = true
 
     game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
     local ohString1 = "TrainStat"
-    local ohString2 = "Strength"
-    
+    local ohString2 = "Sword"
+
     game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
 end
 end
@@ -723,13 +723,13 @@ function autoFreeza()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1177.02209, 34.8487778, 1824.94312, 0.196345195, 6.97012155e-08, 0.980534852, 1.28829813e-09, 1, -7.13428676e-08, -0.980534852, 1.52710502e-08, 0.196345195)
     wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
     local ohString1 = "Equip"
-    local ohString2 = "Strength"
+    local ohString2 = "Sword"
     local ohBoolean3 = true
 
     game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
     local ohString1 = "TrainStat"
-    local ohString2 = "Strength"
-    
+    local ohString2 = "Sword"
+
     game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
 end
 end
@@ -799,9 +799,9 @@ end
 
 
 function autoSkillT()
-    while wait().autoSkillT == true do 
+    while getgenv().autoSkillT == true do
         game:GetService('VirtualInputManager'):SendKeyEvent(true,'T',false,game)
-        wait(10)
+        wait(1)
         end
 end
 
@@ -1146,88 +1146,10 @@ end
     
 
     Tab:AddToggle({
-        Name = "Auto Use Skill Z(Use With Punch)",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoSkillZ = Value
-            autoSkillZ()
-        end    
-    })
-
-    Tab:AddToggle({
-        Name = "Auto Use Skill X",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoSkillX = Value
-            autoSkillX()
-        end    
-    })
-
-    Tab:AddToggle({
-        Name = "Auto Use Skill C",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoSkillC = Value
-            autoSkillC()
-        end    
-    })
-
-
-    Tab:AddToggle({
-        Name = "Auto Use Skill V",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoSkillV = Value
-            autoSkillV()
-        end    
-    })
-
-    Tab:AddToggle({
-        Name = "Auto Use Skill Y",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoSkillY = Value
-            autoSkillY()
-        end    
-    })
-
-
-    Tab:AddToggle({
-        Name = "Auto Use Skill H",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoSkillH = Value
-            autoSkillH()
-        end    
-    })
-
-
-    Tab:AddToggle({
-        Name = "Auto Use Skill U",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoSkillU = Value
-            autoSkillU()
-        end    
-    })
-
-
-    Tab:AddToggle({
-        Name = "Auto Use Skill M",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoSkillM = Value
-            autoSkillM()
-        end    
-    })
-
-
-    Tab:AddToggle({
         Name = "Auto Use Skill T",
         Default = false,
         Callback = function(Value)
-            wait().autoSkillT = Value
-            autoSkillT()
+            print(Value)
         end    
     })
 
