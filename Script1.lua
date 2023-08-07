@@ -737,7 +737,7 @@ end
 function autoSkillZ()
     while getgenv().autoSkillZ == true do 
         game:GetService('VirtualInputManager'):SendKeyEvent(true,'Z',false,game)
-        wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+        wait(1)
         end
 end
 
@@ -745,7 +745,7 @@ end
 function autoSkillX()
     while getgenv().autoSkillX == true do 
         game:GetService('VirtualInputManager'):SendKeyEvent(true,'X',false,game)
-        wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+        wait(1)
         end
 end
 
@@ -753,7 +753,7 @@ end
 function autoSkillC()
     while getgenv().autoSkillC == true do 
         game:GetService('VirtualInputManager'):SendKeyEvent(true,'C',false,game)
-        wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+        wait(1)
         end
 end
 
@@ -761,7 +761,7 @@ end
 function autoSkillV()
     while getgenv().autoSkillV == true do 
         game:GetService('VirtualInputManager'):SendKeyEvent(true,'V',false,game)
-        wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+        wait(1)
         end
 end
 
@@ -769,7 +769,7 @@ end
 function autoSkillY()
     while getgenv().autoSkillY == true do 
         game:GetService('VirtualInputManager'):SendKeyEvent(true,'Y',false,game)
-        wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+        wait(1)
         end
 end
 
@@ -777,7 +777,7 @@ end
 function autoSkillH()
     while getgenv().autoSkillH == true do 
         game:GetService('VirtualInputManager'):SendKeyEvent(true,'H',false,game)
-        wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+        wait(1)
         end
 end
 
@@ -785,7 +785,7 @@ end
 function autoSkillU()
     while getgenv().autoSkillU == true do 
         game:GetService('VirtualInputManager'):SendKeyEvent(true,'U',false,game)
-        wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+        wait(1)
         end
 end
 
@@ -793,7 +793,7 @@ end
 function autoSkillM()
     while getgenv().autoSkillM == true do 
         game:GetService('VirtualInputManager'):SendKeyEvent(true,'M',false,game)
-        wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+        wait(1)
         end
 end
 
@@ -801,7 +801,7 @@ end
 function autoSkillT()
     while getgenv().autoSkillT == true do 
         game:GetService('VirtualInputManager'):SendKeyEvent(true,'T',false,game)
-        wait(0.00000000000000000000000000000000000000001)
+        wait(1)
         end
 end
 
