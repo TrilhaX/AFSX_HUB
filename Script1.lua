@@ -616,9 +616,108 @@ game:GetService("ReplicatedStorage").Events["Prompt/RemoteFunction"]:InvokeServe
         wait(0.000000000000000000000000000000000000000000000001)
     end
 
+    function autoMon()
+        while getgenv().autoMon == true do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1558.55933, 24.4332237, -170.542786, -0.833271444, -1.34692639e-08, 0.552864134, -3.0353366e-08, 1, -2.13855973e-08, -0.552864134, -3.46012925e-08, -0.833271444)
+        wait(0.000000000000000000000000000000000000000000000001)
+        local ohString1 = "Equip"
+        local ohString2 = "Strength"
+        local ohBoolean3 = true
 
+        game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
+        local ohString1 = "TrainStat"
+        local ohString2 = "Strength"
+        
+        game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+    end
+end
     
+   
+function autoOver()
+    while getgenv().autoOver == true do
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-276.370972, -631.597534, 877.319397, 0.473914742, 1.73955197e-08, 0.88057071, 9.80860264e-08, 1, -7.25437843e-08, -0.88057071, 1.20751253e-07, 0.473914742)
+    wait(0.000000000000000000000000000000000000000000000001)
+    local ohString1 = "Equip"
+    local ohString2 = "Strength"
+    local ohBoolean3 = true
+
+    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
+    local ohString1 = "TrainStat"
+    local ohString2 = "Strength"
     
+    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+end
+end
+
+
+function autoShukaku()
+    while getgenv().autoShukaku == true do
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1549.44104, 14.0959501, -587.82074, 0.932023108, -8.32961007e-08, -0.362398803, 1.01528357e-07, 1, 3.12657633e-08, 0.362398803, -6.59341737e-08, 0.932023108)
+    wait(0.000000000000000000000000000000000000000000000001)
+    local ohString1 = "Equip"
+    local ohString2 = "Strength"
+    local ohBoolean3 = true
+
+    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
+    local ohString1 = "TrainStat"
+    local ohString2 = "Strength"
+    
+    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+end
+end
+
+
+function autoTitan()
+    while getgenv().autoTitan == true do
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1964.5343, 175.598969, -2759.64551, -0.984346747, 6.97201941e-08, 0.176242813, 7.95054618e-08, 1, 4.8460123e-08, -0.176242813, 6.17138269e-08, -0.984346747)
+    wait(0.000000000000000000000000000000000000000000000001)
+    local ohString1 = "Equip"
+    local ohString2 = "Strength"
+    local ohBoolean3 = true
+
+    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
+    local ohString1 = "TrainStat"
+    local ohString2 = "Strength"
+    
+    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+end
+end
+
+
+function autoArlong()
+    while getgenv().autoArlong == true do
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1964.5343, 175.598969, -2759.64551, -0.984346747, 6.97201941e-08, 0.176242813, 7.95054618e-08, 1, 4.8460123e-08, -0.176242813, 6.17138269e-08, -0.984346747)
+    wait(0.000000000000000000000000000000000000000000000001)
+    local ohString1 = "Equip"
+    local ohString2 = "Strength"
+    local ohBoolean3 = true
+
+    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
+    local ohString1 = "TrainStat"
+    local ohString2 = "Strength"
+    
+    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+end
+end
+
+
+function autoHand()
+    while getgenv().autoHand == true do
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-705.300049, 174.114334, -2252.47241, 0.860636413, 2.75834786e-08, 0.509219944, -2.6624154e-09, 1, -4.96683334e-08, -0.509219944, 4.13906207e-08, 0.860636413)
+    wait(0.000000000000000000000000000000000000000000000001)
+    local ohString1 = "Equip"
+    local ohString2 = "Strength"
+    local ohBoolean3 = true
+
+    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
+    local ohString1 = "TrainStat"
+    local ohString2 = "Strength"
+    
+    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+end
+end
+
+
     local Tab = Window:MakeTab({
         Name = "Auto Train",
         Icon = "rbxassetid://4483345998",
@@ -862,6 +961,73 @@ game:GetService("ReplicatedStorage").Events["Prompt/RemoteFunction"]:InvokeServe
         Callback = function(Value)
             getgenv().TeleporteE = Value
             TeleporteE()
+        end    
+    })
+
+
+    local Tab = Window:MakeTab({
+        Name = "Auto Boss",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+
+
+    Tab:AddToggle({
+        Name = "Auto Kill Monkey",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoMon = Value
+            autoMon()
+        end    
+    })
+
+
+    Tab:AddToggle({
+        Name = "Auto Kill Overhaul",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoOver = Value
+            autoOver()
+        end    
+    })
+
+
+    Tab:AddToggle({
+        Name = "Auto Kill Shukaku",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoShukaku = Value
+            autoShukaku()
+        end    
+    })
+
+
+    Tab:AddToggle({
+        Name = "Auto Kill Titan",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoTitan = Value
+            autoTitan()
+        end    
+    })
+
+
+    Tab:AddToggle({
+        Name = "Auto Kill Arlong",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoArlong = Value
+            autoArlong()
+        end    
+    })
+
+
+    Tab:AddToggle({
+        Name = "Auto Kill Hand Demon",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoHand = Value
+            autoHand()
         end    
     })
 
