@@ -1055,6 +1055,22 @@ end
         end    
     })
 
+
+
+
+
+
+
+    Tab:AddToggle({
+        Name = "Auto Kill Freeza",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoFreeza = Value
+            autoFreeza()
+        end    
+    })
+
+
     
     local Tab = Window:MakeTab({
         Name = "Auto Use Skill",
@@ -1067,8 +1083,8 @@ end
         Name = "Auto Use Skill Z",
         Default = false,
         Callback = function(Value)
-            getgenv().autoUseSkillZ = Value
-            autoUseSkillZ()
+            getgenv().autoSkillZ = Value
+            autoSkillZ()
         end    
     })
 
