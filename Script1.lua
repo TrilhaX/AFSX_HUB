@@ -801,7 +801,7 @@ end
 function autoSkillT()
     while getgenv().autoSkillT == true do 
         game:GetService('VirtualInputManager'):SendKeyEvent(true,'T',false,game)
-        wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+        wait(0.00000000000000000000000000000000000000001)
         end
 end
 
@@ -1146,7 +1146,7 @@ end
     
 
     Tab:AddToggle({
-        Name = "Auto Use Skill Z",
+        Name = "Auto Use Skill Z(Use With Punch)",
         Default = false,
         Callback = function(Value)
             getgenv().autoSkillZ = Value
