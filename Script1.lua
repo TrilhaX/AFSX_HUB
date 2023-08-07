@@ -186,127 +186,127 @@ game:GetService("ReplicatedStorage").Events["Prompt/RemoteFunction"]:InvokeServe
             local ohString2 = "power_1"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "power_2"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "power_3"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "power_4"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "power_5"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "power_6"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "power_7"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "power_8"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "power_9"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "power_10"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "power_11"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)     
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)     
             local ohString1 = "ClaimAchievement"     
             local ohString2 = "power_12"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)            
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)            
             local ohString1 = "ClaimAchievement"
             local ohString2 = "power_13"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)            
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)            
             local ohString1 = "ClaimAchievement"
             local ohString2 = "power_14"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)            
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)            
             local ohString1 = "ClaimAchievement"
             local ohString2 = "power_15"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)            
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)            
             local ohString1 = "ClaimAchievement"
             local ohString2 = "power_16"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)           
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)           
              local ohString1 = "ClaimAchievement"
             local ohString2 = "power_17"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "power_18"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "power_19"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "power_20"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)   
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)   
             local ohString1 = "ClaimAchievement"
             local ohString2 = "power_21"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)   
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)   
             local ohString1 = "ClaimAchievement"
             local ohString2 = "power_22"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)   
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)   
             local ohString1 = "ClaimAchievement"
             local ohString2 = "power_23"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)   
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)   
             local ohString1 = "ClaimAchievement"
             local ohString2 = "power_24"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)   
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)   
             local ohString1 = "ClaimAchievement"
             local ohString2 = "power_25"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
         end
     end
             function autoGetQ()
@@ -315,57 +315,57 @@ game:GetService("ReplicatedStorage").Events["Prompt/RemoteFunction"]:InvokeServe
             local ohString2 = "quest_1"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "quest_2"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "quest_3"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "quest_4"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "quest_5"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "quest_6"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "quest_7"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "quest_8"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "quest_9"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "quest_10"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "quest_11"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
                 end
             end
             function autoGetR()
@@ -374,97 +374,97 @@ game:GetService("ReplicatedStorage").Events["Prompt/RemoteFunction"]:InvokeServe
             local ohString2 = "reputation_1"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "reputation_2"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "reputation_3"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "reputation_4"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "reputation_5"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "reputation_6"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "reputation_7"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "reputation_8"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "reputation_9"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "reputation_10"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "reputation_11"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "reputation_12"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "reputation_13"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "reputation_14"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "reputation_15"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "reputation_16"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "reputation_17"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "reputation_18"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "reputation_19"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
 
                 end
             end
@@ -476,72 +476,72 @@ game:GetService("ReplicatedStorage").Events["Prompt/RemoteFunction"]:InvokeServe
             local ohString2 = "boss_1"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "boss_2"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "boss_3"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "boss_4"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "boss_5"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "boss_6"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "boss_7"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "boss_8"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "boss_9"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "boss_10"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "boss_11"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)   
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)   
             local ohString1 = "ClaimAchievement"         
             local ohString2 = "boss_12"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)      
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)      
             local ohString1 = "ClaimAchievement"     
              local ohString2 = "boss_13"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)     
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)     
             local ohString1 = "ClaimAchievement"       
             local ohString2 = "boss_14"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
                 end
             end
         
@@ -551,27 +551,27 @@ game:GetService("ReplicatedStorage").Events["Prompt/RemoteFunction"]:InvokeServe
             local ohString2 = "champions_1"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "champions_2"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "champions_3"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "champions_4"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             local ohString1 = "ClaimAchievement"
             local ohString2 = "champions_5"
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
         
         
         
@@ -737,9 +737,75 @@ end
 function autoSkillZ()
     while getgenv().autoSkillZ == true do 
         game:GetService('VirtualInputManager'):SendKeyEvent(true,'Z',false,game)
-        wait(1)
+        wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
         end
 end
+
+
+function autoSkillX()
+    while getgenv().autoSkillX == true do 
+        game:GetService('VirtualInputManager'):SendKeyEvent(true,'X',false,game)
+        wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+        end
+end
+
+
+function autoSkillC()
+    while getgenv().autoSkillC == true do 
+        game:GetService('VirtualInputManager'):SendKeyEvent(true,'C',false,game)
+        wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+        end
+end
+
+
+function autoSkillV()
+    while getgenv().autoSkillV == true do 
+        game:GetService('VirtualInputManager'):SendKeyEvent(true,'V',false,game)
+        wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+        end
+end
+
+
+function autoSkillY()
+    while getgenv().autoSkillY == true do 
+        game:GetService('VirtualInputManager'):SendKeyEvent(true,'Y',false,game)
+        wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+        end
+end
+
+
+function autoSkillH()
+    while getgenv().autoSkillH == true do 
+        game:GetService('VirtualInputManager'):SendKeyEvent(true,'H',false,game)
+        wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+        end
+end
+
+
+function autoSkillU()
+    while getgenv().autoSkillU == true do 
+        game:GetService('VirtualInputManager'):SendKeyEvent(true,'U',false,game)
+        wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+        end
+end
+
+
+function autoSkillM()
+    while getgenv().autoSkillM == true do 
+        game:GetService('VirtualInputManager'):SendKeyEvent(true,'M',false,game)
+        wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+        end
+end
+
+
+function autoSkillT()
+    while getgenv().autoSkillT == true do 
+        game:GetService('VirtualInputManager'):SendKeyEvent(true,'T',false,game)
+        wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+        end
+end
+
+
 
 
     local Tab = Window:MakeTab({
@@ -1088,7 +1154,82 @@ end
         end    
     })
 
+    Tab:AddToggle({
+        Name = "Auto Use Skill X",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillX = Value
+            autoSkillX()
+        end    
+    })
 
+    Tab:AddToggle({
+        Name = "Auto Use Skill C",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillC = Value
+            autoSkillC()
+        end    
+    })
+
+
+    Tab:AddToggle({
+        Name = "Auto Use Skill V",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillV = Value
+            autoSkillV()
+        end    
+    })
+
+    Tab:AddToggle({
+        Name = "Auto Use Skill Y",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillY = Value
+            autoSkillY()
+        end    
+    })
+
+
+    Tab:AddToggle({
+        Name = "Auto Use Skill H",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillH = Value
+            autoSkillH()
+        end    
+    })
+
+
+    Tab:AddToggle({
+        Name = "Auto Use Skill U",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillU = Value
+            autoSkillU()
+        end    
+    })
+
+
+    Tab:AddToggle({
+        Name = "Auto Use Skill M",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillM = Value
+            autoSkillM()
+        end    
+    })
+
+
+    Tab:AddToggle({
+        Name = "Auto Use Skill T",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillT = Value
+            autoSkillT()
+        end    
+    })
 
 
 
