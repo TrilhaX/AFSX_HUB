@@ -7,6 +7,9 @@ if game.PlaceId == 11545598432 then
     
     getgenv().autoSummon = true
     
+
+    getgenv().autoSkillT = true
+
     
     function autoStrenght()
         while getgenv().autoStrenght == true do
@@ -833,12 +836,14 @@ function autoSkillM()
 end
 
 
+
 function autoSkillT()
-    while getgenv().autoSkillT == true do
-        game:GetService('VirtualInputManager'):SendKeyEvent(true,'T',false,game)
+    while wait() do 
+        if getgenv().autoSkillT == true do
+        game:GetService('VirtualInputManager'):SendKeyEvent(true,'W',false,game)
         wait(1)
-        end
-end
+    end
+    end
 
 
 
@@ -1202,7 +1207,8 @@ end
         Name = "Auto Use Skill T",
         Default = false,
         Callback = function(Value)
-            print(Value)
+            getgenv().autoSkillT = Value
+            autoSkillT()
         end    
     })
 
