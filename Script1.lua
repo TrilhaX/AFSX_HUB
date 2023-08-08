@@ -17,6 +17,7 @@ if game.PlaceId == 11545598432 then
     local ohString2 = "Strength"
     
     game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+    wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
         end
     end     
     
@@ -26,6 +27,7 @@ if game.PlaceId == 11545598432 then
             local ohString2 = "Chakra"
             
             game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+    wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
         end
     end     
         
@@ -36,7 +38,7 @@ if game.PlaceId == 11545598432 then
             local ohString2 = "Sword"
     
             game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-    
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
         end
     end 
     
@@ -47,7 +49,7 @@ if game.PlaceId == 11545598432 then
             local ohString2 = "Speed"
             
             game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)        
-    
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
         end
     end 
     
@@ -168,7 +170,7 @@ game:GetService("ReplicatedStorage").Events["Prompt/RemoteFunction"]:InvokeServe
             local ohString2 = "Durability"
     
             game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-            wait(1)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
         end
     end 
     
