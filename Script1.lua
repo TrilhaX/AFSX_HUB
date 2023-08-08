@@ -737,11 +737,13 @@ end
 
 function autoPain()
     while getgenv().autoPain == true do
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-112.152031, 57.9771767, -158.526367, -0.972372949, -3.70875988e-08, -0.233432755, -3.97719333e-08, 1, 6.79233514e-09, 0.233432755, 1.58887552e-08, -0.972372949)
+    wait(1)
     local ohString1 = "Prompt"
     local ohString2 = "c1db55f7-96e7-4899-b419-d0f9ee0bcfcb"
         
     game:GetService("ReplicatedStorage").Events["Prompt/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2064.81982, 1220.37915, -1485.34375, 0.710825622, 2.82194321e-08, 0.703368247, 5.52249246e-10, 1, -4.0678529e-08, -0.703368247, 2.93037754e-08, 0.710825622)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2060.0835, 1239.17969, -1480.53186, 0.707134247, 0, 0.707079291, 0, 1, 0, -0.707079291, 0, 0.707134247)
     wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
     local ohString1 = "Equip"
     local ohString2 = "Sword"
@@ -752,7 +754,17 @@ function autoPain()
     local ohString2 = "Sword"
 
     game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+        end
 end
+
+function autoEnterP()
+    while getgenv().autoEnterP == true do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-112.152031, 57.9771767, -158.526367, -0.972372949, -3.70875988e-08, -0.233432755, -3.97719333e-08, 1, 6.79233514e-09, 0.233432755, 1.58887552e-08, -0.972372949)
+        wait(1)
+        local ohString1 = "Prompt"
+        local ohString2 = "c1db55f7-96e7-4899-b419-d0f9ee0bcfcb"
+        wait(600)
+    end
 end
 
 
@@ -1168,6 +1180,14 @@ end
         end    
     })
 
+    Tab:AddToggle({
+        Name = "Auto Enter Pain",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoEnterP = Value
+            autoEnterP()
+        end    
+    })
 
 
     
