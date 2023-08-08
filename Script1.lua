@@ -621,7 +621,7 @@ game:GetService("ReplicatedStorage").Events["Prompt/RemoteFunction"]:InvokeServe
 
     function autoMon()
         while getgenv().autoMon == true do
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1558.55933, 24.4332237, -170.542786, -0.833271444, -1.34692639e-08, 0.552864134, -3.0353366e-08, 1, -2.13855973e-08, -0.552864134, -3.46012925e-08, -0.833271444)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1558.55933, 24.4332237, -170.542786, -0.833271444, -1.34692639e-08, 0.552864134, -3.0353366e-08, 1, -2.13855973e-08, -0.552864134, -3.46012925e-08, -0.833271444)  
         wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
         local ohString1 = "Equip"
         local ohString2 = "Sword"
@@ -723,7 +723,7 @@ end
 
 function autoFreeza()
     while getgenv().autoFreeza == true do
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1176.94214, 32.4626999, 1806.72327, 3.47877119e-07, 0.992150664, -0.125048324, 0.0082475245, 0.125044078, 0.992116928, 0.999965966, -0.00103168434, -0.00818274356)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1176.94214, 32.4626999, 1806.72327, 3.47877119e-07, 0.992150664, -0.125048324, 0.0082475245, 0.125044078, 0.992116928, 0.999965966, -0.00103168434, -0.00818274356) 
     wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
     local ohString1 = "Equip"
     local ohString2 = "Sword"
@@ -740,14 +740,8 @@ end
 
 function autoPain()
     while getgenv().autoPain == true do
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-112.152031, 57.9771767, -158.526367, -0.972372949, -3.70875988e-08, -0.233432755, -3.97719333e-08, 1, 6.79233514e-09, 0.233432755, 1.58887552e-08, -0.972372949)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2066.03491, 1212.16492, -1484.00757, 0.707134247, 0, 0.707079291, 0, 1, 0, -0.707079291, 0, 0.707134247)   * CFrame.new(10,20,10) * CFrame.Angles(math.rad(-90),0,0)
     wait(1)
-    local ohString1 = "Prompt"
-    local ohString2 = "c1db55f7-96e7-4899-b419-d0f9ee0bcfcb"
-        
-    game:GetService("ReplicatedStorage").Events["Prompt/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2060.0835, 1239.17969, -1480.53186, 0.707134247, 0, 0.707079291, 0, 1, 0, -0.707079291, 0, 0.707134247)
-    wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
     local ohString1 = "Equip"
     local ohString2 = "Sword"
     local ohBoolean3 = true
@@ -760,90 +754,7 @@ function autoPain()
         end
 end
 
-function autoEnterP()
-    while getgenv().autoEnterP == true do
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-112.152031, 57.9771767, -158.526367, -0.972372949, -3.70875988e-08, -0.233432755, -3.97719333e-08, 1, 6.79233514e-09, 0.233432755, 1.58887552e-08, -0.972372949)
-        wait(1)
-        local ohString1 = "Prompt"
-        local ohString2 = "c1db55f7-96e7-4899-b419-d0f9ee0bcfcb"
-        wait(600)
-    end
-end
 
-
-
-function autoSkillZ()
-    while wait().autoSkillZ == true do 
-        game:GetService('VirtualInputManager'):SendKeyEvent(true,'Z',false,game)
-        wait(1)
-        end
-end
-
-
-function autoSkillX()
-    while getgenv().autoSkillX == true do 
-        game:GetService('VirtualInputManager'):SendKeyEvent(true,'X',false,game)
-        wait(1)
-        end
-end
-
-
-function autoSkillC()
-    while getgenv().autoSkillC == true do 
-        game:GetService('VirtualInputManager'):SendKeyEvent(true,'C',false,game)
-        wait(1)
-        end
-end
-
-
-function autoSkillV()
-    while getgenv().autoSkillV == true do 
-        game:GetService('VirtualInputManager'):SendKeyEvent(true,'V',false,game)
-        wait(1)
-        end
-end
-
-
-function autoSkillY()
-    while getgenv().autoSkillY == true do 
-        game:GetService('VirtualInputManager'):SendKeyEvent(true,'Y',false,game)
-        wait(1)
-        end
-end
-
-
-function autoSkillH()
-    while getgenv().autoSkillH == true do 
-        game:GetService('VirtualInputManager'):SendKeyEvent(true,'H',false,game)
-        wait(1)
-        end
-end
-
-
-function autoSkillU()
-    while getgenv().autoSkillU == true do 
-        game:GetService('VirtualInputManager'):SendKeyEvent(true,'U',false,game)
-        wait(1)
-        end
-end
-
-
-function autoSkillM()
-    while getgenv().autoSkillM == true do 
-        game:GetService('VirtualInputManager'):SendKeyEvent(true,'M',false,game)
-        wait(1)
-        end
-end
-
-
-
-function autoSkillT()
-    while getgenv().autoSkillT == true do
-        game:GetService('VirtualInputManager'):SendKeyEvent(true,'T',false,game)
-        wait(1)
-        game:GetService('VirtualInputManager'):SendKeyEvent(false,'T',false,game)
-    end
-    end
 
 
 
@@ -1182,33 +1093,6 @@ function autoSkillT()
         Callback = function(Value)
             getgenv().autoPain = Value
             autoPain()
-        end    
-    })
-
-    Tab:AddToggle({
-        Name = "Auto Enter Pain",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoEnterP = Value
-            autoEnterP()
-        end    
-    })
-
-
-    
-    local Tab = Window:MakeTab({
-        Name = "Auto Use Skill",
-        Icon = "rbxassetid://4483345998",
-        PremiumOnly = false
-    })
-    
-
-    Tab:AddToggle({
-        Name = "Auto Use Skill T",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoSkillT = Value
-            autoSkillT()
         end    
     })
 
