@@ -2,8 +2,12 @@
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     local Window = OrionLib:MakeWindow({Name = "Trilha Hub | [🦸‍♂️UPDATE 1] Anime Fighting Simulator X", HidePremium = false, IntroText = "Trilha Hub", SaveConfig = true, ConfigFolder = "Trilha Hub"})
     
+
+
+
+    getgenv().autoGFruit = true
     
-    
+    getgenv().autoChest = true
     
     getgenv().autoSummon = true
     
@@ -983,47 +987,47 @@
 
         end
     end
-    function autoS100()
+    function autoST100()
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-75.216713, 58.1467056, -324.199036, 1, 0, 0, 0, 1, 0, 0, 0, 1)
             wait(1)
         end
 
-    function autoS10K()
+    function autoST10K()
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-432.436646, 18.3774567, -314.283661, 0, 0, 1, 0, 1, -0, -1, 0, 0)
             wait(1)
         end
 
-    function autoS100K()
+    function autoST100K()
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(255.969086, 21.2049255, -679.106445, 0, 0, 1, 0, 1, -0, -1, 0, 0)
             wait(1) 
         end
     
 
-    function autoS1M()
+    function autoST1M()
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(395.912048, 22.0744591, -101.921761, 0.999391913, -0, -0.0348687991, 0, 1, -0, 0.0348687991, 0, 0.999391913)
             wait(1) 
         end
     
 
-    function autoS10M()
+    function autoST10M()
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-488.724304, 29.0049934, 526.725342, 1, 0, 0, 0, 1, 0, 0, 0, 1)
             wait(1) 
         end
     
 
-    function autoS100M()
+    function autoST100M()
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1553.05664, 59.7584343, -171.284561, 0, 0, 1, 0, 1, -0, -1, 0, 0)
             wait(1) 
         end
     
 
-    function autoS1B()
+    function autoST1B()
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-990.519714, 111.183273, 1739.40039, 0.985467255, -0, -0.169865474, 0, 1, -0, 0.169865474, 0, 0.985467255)
             wait(1) 
         end
     
 
-    function autoS100B()
+    function autoST100B()
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1719.23096, 40.5560036, 870.237976, -0.258864403, 0, 0.965913713, 0, 1, 0, -0.965913713, 0, -0.258864403)
             wait(1) 
         end
@@ -1146,93 +1150,161 @@
             wait(1) 
         end
     
-        function TeleportZ()
-            while getgenv().TeleportZ == true do
-
-        end
-        end
-
         function TeleportEN()
             while getgenv().TeleportEN == true do
-
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-195.236145, 14.7526369, -9.80304146, 1, 0, 0, 0, 1, 0, 0, 0, 1) 
+                wait(1)
+                local ohString1 = "StartQuest"
+                local ohString2 = "BanditQuest"
+                local ohNumber3 = 3
+    
+                game:GetService("ReplicatedStorage").Events["Quests/RemoteEvent"]:FireServer(ohString1, ohString2, ohNumber3)
+                wait(0.1)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(287.171936, 20.1805782, 177.624908, 0.0480446592, -2.22681233e-08, -0.99884516, 1.13987142e-07, 1, -1.68110628e-08, 0.99884516, -1.13047825e-07, 0.0480446592) 
+                wait(0.1)
+                local ohString1 = "Equip"
+                local ohString2 = "Sword"
+                local ohBoolean3 = true
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
+                local ohString1 = "TrainStat"
+                local ohString2 = "Sword"
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+                local ohString1 = "TrainStat"
+                local ohString2 = "Sword"
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+                local ohString1 = "TrainStat"
+                local ohString2 = "Sword"
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+                local ohString1 = "TrainStat"
+                local ohString2 = "Sword"
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+                local ohString1 = "TrainStat"
+                local ohString2 = "Sword"
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+                local ohString1 = "TrainStat"
+                local ohString2 = "Sword"
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+                local ohString1 = "TrainStat"
+                local ohString2 = "Sword"
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+                local ohString1 = "TrainStat"
+                local ohString2 = "Sword"
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+                local ohString1 = "TrainStat"
+                local ohString2 = "Sword"
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+                local ohString1 = "TrainStat"
+                local ohString2 = "Sword"
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+                local ohString1 = "TrainStat"
+                local ohString2 = "Sword"
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-195.236145, 14.7526369, -9.80304146, 1, 0, 0, 0, 1, 0, 0, 0, 1) 
+                game:GetService('VirtualInputManager'):SendKeyEvent(true,'E',false,game)
+                wait(1)
         end
         end
-
-        function TeleportK()
-            while getgenv().TeleportK == true do
-
-        end
-        end
-
-        function TeleportSp()
-            while getgenv().TeleportSp == true do
-
-        end
-        end
-
-        function TeleportJ()
-            while getgenv().TeleportJ == true do
-
-        end
-        end
-
-        function TeleportSo()
-            while getgenv().TeleportSo == true do
-
-        end
-        end
-
-        function TeleportP()
-            while getgenv().TeleportP == true do
-
-        end
-        end
-
-        function TeleportV()
-            while getgenv().TeleportV == true do
-
-        end
-        end
-
-        function TeleportFa()
-            while getgenv().TeleportFa == true do
-
-        end
-        end
-
-        function TeleportTr()
-            while getgenv().TeleportTr == true do
-
-        end
-        end
-
-        function TeleportGa()
-            while getgenv().TeleportGa == true do
-
-        end
-        end
-
-        function TeleportKa()
-            while getgenv().TeleportKa == true do
-
-        end
-        end
-
-        function TeleportGo()
-            while getgenv().TeleportGo == true do
-
-        end
-        end
-
-        function TeleportKi()
-            while getgenv().TeleportKi == true do
-
-        end
-        end
-
-        function TeleportGy()
-            while getgenv().TeleportGy == true do
-
+    
+    
+    
+        function TeleportS()
+            while getgenv().TeleportS == true do
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1115.87427, 67.8538895, 1354.78479, -0.937087655, 8.26632629e-08, 0.349094182, 8.72217782e-08, 1, -2.66064437e-09, -0.349094182, 2.79553571e-08, -0.937087655) 
+                wait(1)
+                local ohString1 = "StartQuest"
+                local ohString2 = "BanditQuest7"
+                local ohNumber3 = 3
+    
+                game:GetService("ReplicatedStorage").Events["Quests/RemoteEvent"]:FireServer(ohString1, ohString2, ohNumber3)
+                wait(0.1)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1438.36987, 66.1035461, 1988.25781, -0.77754879, 0, -0.628822744, 0, 1, 0, 0.628822744, 0, -0.77754879) 
+                wait(0.1)
+                local ohString1 = "Equip"
+                local ohString2 = "Sword"
+                local ohBoolean3 = true
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
+                local ohString1 = "TrainStat"
+                local ohString2 = "Sword"
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+                local ohString1 = "TrainStat"
+                local ohString2 = "Sword"
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+                local ohString1 = "TrainStat"
+                local ohString2 = "Sword"
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+                local ohString1 = "TrainStat"
+                local ohString2 = "Sword"
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+                local ohString1 = "TrainStat"
+                local ohString2 = "Sword"
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+                local ohString1 = "TrainStat"
+                local ohString2 = "Sword"
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+                local ohString1 = "TrainStat"
+                local ohString2 = "Sword"
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+                local ohString1 = "TrainStat"
+                local ohString2 = "Sword"
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+                local ohString1 = "TrainStat"
+                local ohString2 = "Sword"
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+                local ohString1 = "TrainStat"
+                local ohString2 = "Sword"
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+                local ohString1 = "TrainStat"
+                local ohString2 = "Sword"
+    
+                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1115.87427, 67.8538895, 1354.78479, -0.937087655, 8.26632629e-08, 0.349094182, 8.72217782e-08, 1, -2.66064437e-09, -0.349094182, 2.79553571e-08, -0.937087655) 
+                game:GetService('VirtualInputManager'):SendKeyEvent(true,'E',false,game)
+                wait(1)
         end
         end
 
@@ -1304,8 +1376,263 @@
             wait(7)
         end
     end
-    
 
+
+
+    function autoSkillO()
+        while getgenv().autoSkillO == true do
+            game:GetService('VirtualInputManager'):SendKeyEvent(true,'O',false,game)
+            wait(1)
+            game:GetService('VirtualInputManager'):SendKeyEvent(true,'O',false,game)
+        end
+    end  
+    
+    function autoSkillI()
+        while getgenv().autoSkillI == true do
+            game:GetService('VirtualInputManager'):SendKeyEvent(true,'I',false,game)
+            wait(1)
+            game:GetService('VirtualInputManager'):SendKeyEvent(true,'I',false,game)
+        end
+    end  
+    
+    function autoSkillY()
+        while getgenv().autoSkillY == true do
+            game:GetService('VirtualInputManager'):SendKeyEvent(true,'Y',false,game)
+            wait(1)
+            game:GetService('VirtualInputManager'):SendKeyEvent(true,'Y',false,game)
+        end
+    end  
+    
+    function autoSkillR()
+        while getgenv().autoSkillR == true do
+            game:GetService('VirtualInputManager'):SendKeyEvent(true,'R',false,game)
+            wait(1)
+            game:GetService('VirtualInputManager'):SendKeyEvent(true,'R',false,game)
+        end
+    end  
+    
+    function ClaimDQ()
+        while getgenv().ClaimDQ == true do
+            local ohString1 = "ClaimDailyQuest"
+            local ohString2 = "daily_quest1"
+    
+            game:GetService("ReplicatedStorage").Events["Quests/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(0.1)
+            local ohString1 = "ClaimDailyQuest"
+            local ohString2 = "daily_quest2"
+    
+            game:GetService("ReplicatedStorage").Events["Quests/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(0.1)
+            local ohString1 = "ClaimDailyQuest"
+            local ohString2 = "daily_quest3"
+    
+            game:GetService("ReplicatedStorage").Events["Quests/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(0.1)
+            local ohString1 = "ClaimDailyQuest"
+            local ohString2 = "daily_quest4"
+    
+            game:GetService("ReplicatedStorage").Events["Quests/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(0.1)
+            end
+        end  
+
+
+        function autoSkillY()
+            while getgenv().autoSkillY== true do
+                wait(0.0000000000000000000000000000000000000000000000000000001)
+                keypress("0x59")
+                keyrelease("0x59")
+                end
+            end  
+        
+        
+            function autoSkillO()
+                while getgenv().autoSkillO == true do
+                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    keypress("0x4F")
+                    keyrelease("0x4F")
+                    end
+                end  
+        
+            function autoSkillT()
+                while getgenv().autoSkillT == true do
+                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    keypress("0x54")
+                    keyrelease("0x54")
+                    end
+                end  
+        
+                function autoSkillF()
+                while getgenv().autoSkillF == true do
+                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    keypress("0x34")
+                    keyrelease("0x34")
+                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    keypress("0x46")
+                    keyrelease("0x46")
+                    end
+                end  
+        
+            function autoSkillI()
+                while getgenv().autoSkillI == true do
+                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    keypress("0x34")
+                    keyrelease("0x34")
+                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    keypress("0x49")
+                    keyrelease("0x49")
+                    wait(120)
+                    end
+                end
+                
+                
+            function autoSkillU()
+                while getgenv().autoSkillU == true do
+                    keypress("0x55")
+                    keyrelease("0x55")
+                    end
+                end
+        
+        
+            function autoSkillP()
+                while getgenv().autoSkillP == true do
+                    wait(5)
+                    keypress("0x50")
+                    keyrelease("0x50")
+                    wait(120)
+                    break
+                    end
+                 end
+        
+        
+                 function autoSkillR()
+                        while getgenv().autoSkillR == true do
+                            wait(0.0000000000000000000000000000000000000000000000000000001)
+                            keypress("0x34")
+                            keyrelease("0x34")
+                            wait(0.0000000000000000000000000000000000000000000000000000001)
+                            keypress("0x52")
+                            keyrelease("0x52")
+                            end
+                        end
+        
+        
+        function autoSkillZS()
+            while getgenv().autoSkillZS == true do
+                wait(0.0000000000000000000000000000000000000000000000000000001)
+                keypress("0x35")
+                keyrelease("0x35")
+                wait(5)
+                keypress("0x5A")
+                keyrelease("0x5A")
+                wait(0.0000000000000000000000000000000000000000000000000000001)
+                keypress("0x35")
+                keyrelease("0x35")
+                end
+            end
+        
+            function autoSkillXS()
+                while getgenv().autoSkillXS == true do
+                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    keypress("0x35")
+                    keyrelease("0x35")
+                    wait(5)
+                    keypress("0x58")
+                    keyrelease("0x58")
+                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    keypress("0x35")
+                    keyrelease("0x35")
+                    end
+                end
+        
+        
+        function autoSkillCS()
+            while getgenv().autoSkillCS == true do
+                wait(0.0000000000000000000000000000000000000000000000000000001)
+                keypress("0x35")
+                keyrelease("0x35")
+                wait(5)
+                keypress("0x43")
+                keyrelease("0x43")
+                wait(0.0000000000000000000000000000000000000000000000000000001)
+                keypress("0x35")
+                keyrelease("0x35")
+                end
+            end
+        
+        
+            function autoSkillVS()
+                while getgenv().autoSkillVS == true do
+                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    keypress("0x35")
+                    keyrelease("0x35")
+                    wait(5)
+                    keypress("0x56")
+                    keyrelease("0x56")
+                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    keypress("0x35")
+                    keyrelease("0x35")
+                    end
+                end
+        
+        
+                function autoSkillZQ()
+                    while getgenv().autoSkillZQ == true do
+                        wait(0.0000000000000000000000000000000000000000000000000000001)
+                        keypress("0x36")
+                        keyrelease("0x36")
+                        wait(5)
+                        keypress("0x5A")
+                        keyrelease("0x5A")
+                        wait(0.0000000000000000000000000000000000000000000000000000001)
+                        keypress("0x36")
+                        keyrelease("0x36")
+                        end
+                    end
+                
+                    function autoSkillXQ()
+                        while getgenv().autoSkillXQ == true do
+                            wait(0.0000000000000000000000000000000000000000000000000000001)
+                            keypress("0x36")
+                            keyrelease("0x36")
+                            wait(5)
+                            keypress("0x58")
+                            keyrelease("0x58")
+                            wait(0.0000000000000000000000000000000000000000000000000000001)
+                            keypress("0x36")
+                            keyrelease("0x36")
+                            end
+                        end
+                
+                
+                function autoSkillCQ()
+                    while getgenv().autoSkillCQ == true do
+                        wait(0.0000000000000000000000000000000000000000000000000000001)
+                        keypress("0x36")
+                        keyrelease("0x36")
+                        wait(5)
+                        keypress("0x43")
+                        keyrelease("0x43")
+                        wait(0.0000000000000000000000000000000000000000000000000000001)
+                        keypress("0x36")
+                        keyrelease("0x36")
+                        end
+                    end
+                
+                
+                    function autoSkillVQ()
+                        while getgenv().autoSkillVQ == true do
+                            wait(0.0000000000000000000000000000000000000000000000000000001)
+                            keypress("0x36")
+                            keyrelease("0x36")
+                            wait(5)
+                            keypress("0x56")
+                            keyrelease("0x56")
+                            wait(0.0000000000000000000000000000000000000000000000000000001)
+                            keypress("0x36")
+                            keyrelease("0x36")
+                            end
+                        end
         
         
     local Tab = Window:MakeTab({
@@ -1420,7 +1747,23 @@
         end    
     })
     
+
+    local Tab = Window:MakeTab({
+        Name = "Auto Claim Daily Quest",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
     
+    
+    
+    Tab:AddToggle({
+    Name = "Auto Claim Daily Quest",
+    Default = false,
+    Callback = function(Value)
+        getgenv().ClaimDQ = Value
+        ClaimDQ()
+    end    
+    })
     
     local Tab = Window:MakeTab({
         Name = "Auto Get Achievement",
@@ -1485,150 +1828,24 @@
     })
     
     
-    
     Tab:AddToggle({
-        Name = "Auto Get Boom Quest(Not Working)",
-        Default = false,
-        Callback = function(Value)
-            getgenv().TeleportF = Value
-            TeleportF()
-        end    
-    })
-
-    Tab:AddToggle({
-        Name = "Auto Get Zoru Quest(Not Working)",
-        Default = false,
-        Callback = function(Value)
-            getgenv().TeleportZ = Value
-            TeleportZ()
-        end    
-    })
-
-    Tab:AddToggle({
-        Name = "Auto Get Endeavor Quest(Not Working)",
+        Name = "Auto Endeavor Quest",
         Default = false,
         Callback = function(Value)
             getgenv().TeleportEN = Value
             TeleportEN()
         end    
     })
-    
+
     Tab:AddToggle({
-        Name = "Auto Get Killua Quest(Not Working)",
+        Name = "Auto Stain Quest",
         Default = false,
         Callback = function(Value)
-            getgenv().TeleportK = Value
-            TeleportK()
+            getgenv().TeleportS = Value
+            TeleportS()
         end    
     })
 
-    Tab:AddToggle({
-        Name = "Auto Get Spade Quest(Not Working)",
-        Default = false,
-        Callback = function(Value)
-            getgenv().TeleportSp = Value
-            TeleportSp()
-        end    
-    })
-
-    Tab:AddToggle({
-        Name = "Auto Get Jaera Quest(Not Working)",
-        Default = false,
-        Callback = function(Value)
-            getgenv().TeleportJ = Value
-            TeleportJ()
-        end    
-    })
-
-    Tab:AddToggle({
-        Name = "Auto Get Son Quest(Not Working)",
-        Default = false,
-        Callback = function(Value)
-            getgenv().TeleportSo = Value
-            TeleportSo()
-        end    
-    })
-
-    Tab:AddToggle({
-        Name = "Auto Get Pickle Quest(Not Working)",
-        Default = false,
-        Callback = function(Value)
-            getgenv().TeleportP = Value
-            TeleportP()
-        end    
-    })
-
-    Tab:AddToggle({
-        Name = "Auto Get Vegita Quest(Not Working)",
-        Default = false,
-        Callback = function(Value)
-            getgenv().TeleportV = Value
-            TeleportV()
-        end    
-    })
-
-    Tab:AddToggle({
-        Name = "Auto Get Falcon Quest(Not Working)",
-        Default = false,
-        Callback = function(Value)
-            getgenv().TeleportFa = Value
-            TeleportFa()
-        end    
-    })
-
-    Tab:AddToggle({
-        Name = "Auto Get Trunks Quest(Not Working)",
-        Default = false,
-        Callback = function(Value)
-            getgenv().TeleportTr = Value
-            TeleportTr()
-        end    
-    })
-
-    Tab:AddToggle({
-        Name = "Auto Get Garo Quest(Not Working)",
-        Default = false,
-        Callback = function(Value)
-            getgenv().TeleportGa = Value
-            TeleportGa()
-        end    
-    })
-
-    Tab:AddToggle({
-        Name = "Auto Get Kasuma Quest(Not Working)",
-        Default = false,
-        Callback = function(Value)
-            getgenv().TeleportKa = Value
-            TeleportKa()
-        end    
-    })
-
-        Tab:AddToggle({
-        Name = "Auto Get Gora Quest(Not Working)",
-        Default = false,
-        Callback = function(Value)
-            getgenv().TeleportGo = Value
-            TeleportGo()
-        end    
-    })
-
-    Tab:AddToggle({
-        Name = "Auto Get Kizura Quest(Not Working)",
-        Default = false,
-        Callback = function(Value)
-            getgenv().TeleportKi = Value
-            TeleportKi()
-        end    
-    })
-
-    Tab:AddToggle({
-        Name = "Auto Get Giya Quest(Not Working)",
-        Default = false,
-        Callback = function(Value)
-            getgenv().TeleportGy = Value
-            TeleportGy()
-        end    
-    })
 
     local Tab = Window:MakeTab({
         Name = "Auto Boss",
@@ -1697,11 +1914,6 @@
     })
 
 
-
-
-
-
-
     Tab:AddToggle({
         Name = "Auto Kill Freeza",
         Default = false,
@@ -1722,6 +1934,171 @@
 
 
     local Tab = Window:MakeTab({
+        Name = "Auto Use Skill",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+    
+    Tab:AddToggle({
+        Name = "Auto Skill I (Use With Sword)",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillI = Value
+            autoSkillI()
+        end    
+        })
+    
+
+    Tab:AddToggle({
+        Name = "Auto Skill P (Use With Mode)",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillP = Value
+            autoSkillP()
+    end    
+    })
+
+
+    Tab:AddToggle({
+        Name = "Auto Skill Y",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillY = Value
+            autoSkillY()
+    end    
+    })
+
+
+    Tab:AddToggle({
+        Name = "Auto Skill R",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillR = Value
+            autoSkillR()
+        end    
+        })
+
+
+        Tab:AddToggle({
+            Name = "Auto Skill U",
+            Default = false,
+            Callback = function(Value)
+                getgenv().autoSkillU = Value
+                autoSkillU()
+    end    
+    })
+
+
+    Tab:AddToggle({
+        Name = "Auto Skill T",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillT = Value
+            autoSkillT()
+        end    
+        })
+    
+
+    Tab:AddToggle({
+        Name = "Auto Skill O",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillO = Value
+            autoSkillO()
+        end    
+        })
+
+
+    Tab:AddToggle({
+        Name = "Auto Skill F (Use With Sword)",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillF = Value
+            autoSkillF()
+        end    
+        })
+    
+
+    Tab:AddToggle({
+        Name = "Auto Skill Z (Use With Stand)",
+        Default = false, 
+        Callback = function(Value)
+            getgenv().autoSkillZS = Value
+            autoSkillZS()
+        end    
+        })
+
+
+    Tab:AddToggle({
+        Name = "Auto Skill X (Use With Stand)",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillXS = Value
+            autoSkillXS()
+        end    
+        })
+
+
+    Tab:AddToggle({
+        Name = "Auto Skill C (Use With Stand)",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillCS = Value
+            autoSkillCS()
+        end    
+        })
+
+
+    Tab:AddToggle({
+        Name = "Auto Skill V (Use With Stand)",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillVS = Value
+            autoSkillVS()
+        end    
+        })
+
+
+        Tab:AddToggle({
+            Name = "Auto Skill Z (Use With Quirk)",
+            Default = false, 
+            Callback = function(Value)
+                getgenv().autoSkillZQ = Value
+                autoSkillZQ()
+            end    
+            })
+    
+    
+        Tab:AddToggle({
+            Name = "Auto Skill X (Use With Quirk)",
+            Default = false,
+            Callback = function(Value)
+                getgenv().autoSkillXQ = Value
+                autoSkillXQ()
+            end    
+            })
+    
+    
+        Tab:AddToggle({
+            Name = "Auto Skill C (Use With Quirk)",
+            Default = false,
+            Callback = function(Value)
+                getgenv().autoSkillCQ = Value
+                autoSkillCQ()
+            end    
+            })
+    
+    
+        Tab:AddToggle({
+            Name = "Auto Skill V (Use With Quirk)",
+            Default = false,
+            Callback = function(Value)
+                getgenv().autoSkillVQ = Value
+                autoSkillVQ()
+            end    
+            })
+
+    local Tab = Window:MakeTab({
         Name = "Auto Chest",
         Icon = "rbxassetid://4483345998",
         PremiumOnly = false
@@ -1737,8 +2114,7 @@
             autoChest()	
         end    
     })
-
-
+    
 
     local Tab = Window:MakeTab({
         Name = "Teleport",
@@ -1752,16 +2128,16 @@
     Tab:AddButton({
         Name = "Auto Tp Area Strenght(100)",
         Callback = function(Value)
-            getgenv().autoS100 = Value
-            autoS100()	
+            getgenv().autoST100 = Value
+            autoST100()	
         end    
     })
 
     Tab:AddButton({
         Name = "Auto Tp Area Strenght(10K)",
         Callback = function(Value)
-            getgenv().autoS10K = Value
-            autoS10K()	
+            getgenv().autoST10K = Value
+            autoST10K()	
         end    
     })
 
@@ -1769,48 +2145,48 @@
         Name = "Auto Tp Area Strenght(100K)",
         Default = false,
         Callback = function(Value)
-            getgenv().autoS100K = Value
-            autoS100K()	
+            getgenv().autoST100K = Value
+            autoST100K()	
         end    
     })
 
     Tab:AddButton({
         Name = "Auto Tp Area Strenght(1M)",
         Callback = function(Value)
-            getgenv().autoS1M = Value
-            autoS1M()	
+            getgenv().autoST1M = Value
+            autoST1M()	
         end    
     })
 
     Tab:AddButton({
         Name = "Auto Tp Area Strenght(10M)",
         Callback = function(Value)
-            getgenv().autoS10M = Value
-            autoS10M()	
+            getgenv().autoST10M = Value
+            autoST10M()	
         end    
     })
 
     Tab:AddButton({
         Name = "Auto Tp Area Strenght(100M)",
         Callback = function(Value)
-            getgenv().autoS100m = Value
-            autoS100M()	
+            getgenv().autoST100m = Value
+            autoST100M()	
         end    
     })
 
     Tab:AddButton({
         Name = "Auto Tp Area Strength(1B)",
         Callback = function(Value)
-            getgenv().autoS1B = Value
-            autoS1B()	
+            getgenv().autoST1B = Value
+            autoST1B()	
         end    
     })
 
     Tab:AddButton({
         Name = "Auto Tp Area Strength(100B)",
         Callback = function(Value)
-            getgenv().autoS100B = Value
-            autoS100B()	
+            getgenv().autoST100B = Value
+            autoST100B()	
         end    
     })
 
