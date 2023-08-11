@@ -1,4 +1,4 @@
-    if game.PlaceId == 11545598432 then
+if game.PlaceId == 11545598432 then
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     local Window = OrionLib:MakeWindow({Name = "Trilha Hub | [🦸‍♂️UPDATE 1] Anime Fighting Simulator X", HidePremium = false, IntroText = "Trilha Hub", SaveConfig = true, ConfigFolder = "Trilha Hub"})
     
@@ -1433,6 +1433,15 @@
     
             game:GetService("ReplicatedStorage").Events["Quests/RemoteEvent"]:FireServer(ohString1, ohString2)
             wait(0.1)
+            local ohString1 = "ClaimDailyQuestBonus"
+            local ohString2 = "Bonus_1"
+
+            game:GetService("ReplicatedStorage").Events["Quests/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(0.1)
+            local ohString1 = "ClaimDailyQuestBonus"
+            local ohString2 = "Bonus_2"
+
+            game:GetService("ReplicatedStorage").Events["Quests/RemoteEvent"]:FireServer(ohString1, ohString2)
             end
         end  
 
@@ -1488,6 +1497,7 @@
                 
             function autoSkillU()
                 while getgenv().autoSkillU == true do
+                    wait(0.0000000000000000000000000000000000000000000000000000001)
                     keypress("0x55")
                     keyrelease("0x55")
                     end
@@ -2453,4 +2463,4 @@
         v:Disable()
     end
     end
-    OrionLib:Init()   
+    OrionLib:Init()
