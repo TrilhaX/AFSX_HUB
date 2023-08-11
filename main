@@ -550,6 +550,12 @@ if game.PlaceId == 11545598432 then
             
             game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
             wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+
+            local ohString1 = "ClaimAchievement"
+            local ohString2 = "boss_15"
+
+            game:GetService("ReplicatedStorage").Events["Achievements/RemoteEvent"]:FireServer(ohString1, ohString2)
+            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
                 end
             end
         
@@ -1450,7 +1456,15 @@ if game.PlaceId == 11545598432 then
     end
            
 
+    function ETournament()
+        while getgenv().ETournament == true do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1115.9834, 89.0894928, -1003.02203, 0.824801803, -2.5939098e-08, 0.565421939, 1.24542101e-08, 1, 2.77082339e-08, -0.565421939, -1.58119171e-08, 0.824801803)
+        wait(0.00000000000000000000000000000000000000000000000000000000000000000000000001)
+        game:GetService("TeleportService"):Teleport(14400427869, LocalPlayer)
+        wait(0.00000000000000000000000000000000000000000000000000000000000000000000000001)
 
+        end
+    end
 
 
     function ClaimDQ()
@@ -2597,6 +2611,579 @@ if game.PlaceId == 11545598432 then
             autoGFruit()	
         end    
     })
+
+
+    
+    Tab:AddToggle({
+        Name = "Auto Enter In Tournament",
+        Default = false,
+        Callback = function(Value)
+            getgenv().ETournament = Value
+            ETournament()	
+        end    
+    })
+
+
+
+    for i,v in pairs(getconnections(game.Players.LocalPlayer.Idled)) do
+        v:Disable()
+    end
+    end
+
+
+
+if game.PlaceId == 14400427869 then
+    local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    local Window = OrionLib:MakeWindow({Name = "Trilha Hub | [🦸‍♂️UPDATE 1] Anime Fighting Simulator X", HidePremium = false, IntroText = "Trilha Hub", SaveConfig = true, ConfigFolder = "Trilha Hub"})
+    
+
+
+    
+
+
+    function autoHitP()
+        while getgenv().autoHitP == true do
+            local ohString1 = "Equip"
+            local ohString2 = "Strength"
+            local ohBoolean3 = true
+
+            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
+            local ohString1 = "TrainStat"
+            local ohString2 = "Strength"
+            
+            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+
+        end
+    end 
+
+
+    function autoHitS()
+        while getgenv().autoHitS == true do
+
+
+            local ohString1 = "Equip"
+            local ohString2 = "Sword"
+            local ohBoolean3 = true
+
+            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
+            local ohString1 = "TrainStat"
+            local ohString2 = "Sword"
+
+            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+
+        end
+    end    
+
+    function ETournament()
+        while getgenv().ETournament == true do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1115.9834, 89.0894928, -1003.02203, 0.824801803, -2.5939098e-08, 0.565421939, 1.24542101e-08, 1, 2.77082339e-08, -0.565421939, -1.58119171e-08, 0.824801803)
+        wait(0.00000000000000000000000000000000000000000000000000000000000000000000000001)
+        game:GetService("TeleportService"):Teleport(11545598432, LocalPlayer) 
+        wait(0.00000000000000000000000000000000000000000000000000000000000000000000000001)
+
+        end
+    end
+
+
+        function autoSkillY()
+            while getgenv().autoSkillY== true do
+                wait(0.0000000000000000000000000000000000000000000000000000001)
+                keypress("0x59")
+                keyrelease("0x59")
+                end
+            end  
+        
+        
+            function autoSkillO()
+                while getgenv().autoSkillO == true do
+                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    keypress("0x4F")
+                    keyrelease("0x4F")
+                    end
+                end  
+        
+            function autoSkillT()
+                while getgenv().autoSkillT == true do
+                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    keypress("0x54")
+                    keyrelease("0x54")
+                    end
+                end  
+        
+                function autoSkillF()
+                while getgenv().autoSkillF == true do
+                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    keypress("0x34")
+                    keyrelease("0x34")
+                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    keypress("0x46")
+                    keyrelease("0x46")
+                    end
+                end  
+        
+            function autoSkillI()
+                while getgenv().autoSkillI == true do
+                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    keypress("0x34")
+                    keyrelease("0x34")
+                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    keypress("0x49")
+                    keyrelease("0x49")
+                    wait(120)
+                    end
+                end
+                
+                
+            function autoSkillU()
+                while getgenv().autoSkillU == true do
+                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    keypress("0x55")
+                    keyrelease("0x55")
+                    end
+                end
+        
+        
+            function autoSkillP()
+                while getgenv().autoSkillP == true do
+                    wait(5)
+                    keypress("0x50")
+                    keyrelease("0x50")
+                    wait(120)
+                    break
+                    end
+                 end
+        
+        
+                 function autoSkillR()
+                        while getgenv().autoSkillR == true do
+                            wait(0.0000000000000000000000000000000000000000000000000000001)
+                            keypress("0x34")
+                            keyrelease("0x34")
+                            wait(0.0000000000000000000000000000000000000000000000000000001)
+                            keypress("0x52")
+                            keyrelease("0x52")
+                            end
+                        end
+        
+        
+        function autoSkillZS()
+            while getgenv().autoSkillZS == true do
+                wait(0.0000000000000000000000000000000000000000000000000000001)
+                keypress("0x35")
+                keyrelease("0x35")
+                wait(1.35)
+                keypress("0x5A")
+                keyrelease("0x5A")
+                wait(0.0000000000000000000000000000000000000000000000000000001)
+                keypress("0x35")
+                keyrelease("0x35")
+                end
+            end
+        
+            function autoSkillXS()
+                while getgenv().autoSkillXS == true do
+                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    keypress("0x35")
+                    keyrelease("0x35")
+                    wait(1.35)
+                    keypress("0x58")
+                    keyrelease("0x58")
+                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    keypress("0x35")
+                    keyrelease("0x35")
+                    end
+                end
+        
+        
+        function autoSkillCS()
+            while getgenv().autoSkillCS == true do
+                wait(0.0000000000000000000000000000000000000000000000000000001)
+                keypress("0x35")
+                keyrelease("0x35")
+                wait(1.35)
+                keypress("0x43")
+                keyrelease("0x43")
+                wait(0.0000000000000000000000000000000000000000000000000000001)
+                keypress("0x35")
+                keyrelease("0x35")
+                end
+            end
+        
+        
+            function autoSkillVS()
+                while getgenv().autoSkillVS == true do
+                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    keypress("0x35")
+                    keyrelease("0x35")
+                    wait(1.35)
+                    keypress("0x56")
+                    keyrelease("0x56")
+                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    keypress("0x35")
+                    keyrelease("0x35")
+                    end
+                end
+        
+        
+                function autoSkillZQ()
+                    while getgenv().autoSkillZQ == true do
+                        wait(0.0000000000000000000000000000000000000000000000000000001)
+                        keypress("0x36")
+                        keyrelease("0x36")
+                        wait(0.1)
+                        keypress("0x5A")
+                        keyrelease("0x5A")
+                        wait(0.0000000000000000000000000000000000000000000000000000001)
+                        keypress("0x36")
+                        keyrelease("0x36")
+                        end
+                    end
+                
+                    function autoSkillXQ()
+                        while getgenv().autoSkillXQ == true do
+                            wait(0.0000000000000000000000000000000000000000000000000000001)
+                            keypress("0x36")
+                            keyrelease("0x36")
+                            wait(0.1)
+                            keypress("0x58")
+                            keyrelease("0x58")
+                            wait(0.0000000000000000000000000000000000000000000000000000001)
+                            keypress("0x36")
+                            keyrelease("0x36")
+                            end
+                        end
+                
+                
+                function autoSkillCQ()
+                    while getgenv().autoSkillCQ == true do
+                        wait(0.0000000000000000000000000000000000000000000000000000001)
+                        keypress("0x36")
+                        keyrelease("0x36")
+                        wait(0.1)
+                        keypress("0x43")
+                        keyrelease("0x43")
+                        wait(0.0000000000000000000000000000000000000000000000000000001)
+                        keypress("0x36")
+                        keyrelease("0x36")
+                        end
+                    end
+                
+                
+                    function autoSkillVQ()
+                        while getgenv().autoSkillVQ == true do
+                            wait(0.0000000000000000000000000000000000000000000000000000001)
+                            keypress("0x36")
+                            keyrelease("0x36")
+                            wait(0.1)
+                            keypress("0x56")
+                            keyrelease("0x56")
+                            wait(0.0000000000000000000000000000000000000000000000000000001)
+                            keypress("0x36")
+                            keyrelease("0x36")
+                            end
+                        end
+
+
+                        function autoSkillZF()
+                            while getgenv().autoSkillZF == true do
+                                wait(0.0000000000000000000000000000000000000000000000000000001)
+                                keypress("0x37")
+                                keyrelease("0x37")
+                                wait(3.50)
+                                keypress("0x5A")
+                                keyrelease("0x5A")
+                                wait(2.30)
+                                keypress("0x37")
+                                keyrelease("0x37")
+                                end
+                            end
+                        
+                            function autoSkillXF()
+                                while getgenv().autoSkillXF == true do
+                                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                                    keypress("0x37")
+                                    keyrelease("0x37")
+                                    wait(3.50)
+                                    keypress("0x58")
+                                    keyrelease("0x58")
+                                    wait(2.30)
+                                    keypress("0x37")
+                                    keyrelease("0x37")
+                                    end
+                                end
+                        
+                        
+                        function autoSkillCF()
+                            while getgenv().autoSkillCF == true do
+                                wait(0.0000000000000000000000000000000000000000000000000000001)
+                                keypress("0x37")
+                                keyrelease("0x37")
+                                wait(3.50)
+                                keypress("0x43")
+                                keyrelease("0x43")
+                                wait(2.30)
+                                keypress("0x37")
+                                keyrelease("0x37")
+                                end
+                            end
+                        
+                        
+                            function autoSkillVF()
+                                while getgenv().autoSkillVF == true do
+                                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                                    keypress("0x37")
+                                    keyrelease("0x37")
+                                    wait(3.50)
+                                    keypress("0x56")
+                                    keyrelease("0x56")
+                                    wait(2.30)
+                                    keypress("0x37")
+                                    keyrelease("0x37")
+                                    end
+                                end
+        
+        
+    local Tab = Window:MakeTab({
+        Name = "Main",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+    
+
+    Tab:AddToggle({
+        Name = "Auto Hit With Sword",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoHitS = Value
+            autoHitS()	
+        end    
+    })
+
+
+    Tab:AddToggle({
+        Name = "Auto Hit With Punch",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoHitP = Value
+            autoHitP()	
+        end    
+    })
+
+
+    Tab:AddToggle({
+        Name = "Auto Enter In World 1",
+        Default = false,
+        Callback = function(Value)
+            getgenv().ETournament = Value
+            ETournament()	
+        end    
+    })
+
+
+    local Tab = Window:MakeTab({
+        Name = "Auto Use Skill",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+    
+    Tab:AddToggle({
+        Name = "Auto Skill I (Use With Sword)",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillI = Value
+            autoSkillI()
+        end    
+        })
+    
+
+    Tab:AddToggle({
+        Name = "Auto Skill P (Use With Mode)",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillP = Value
+            autoSkillP()
+    end    
+    })
+
+
+    Tab:AddToggle({
+        Name = "Auto Skill Y",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillY = Value
+            autoSkillY()
+    end    
+    })
+
+
+    Tab:AddToggle({
+        Name = "Auto Skill R",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillR = Value
+            autoSkillR()
+        end    
+        })
+
+
+        Tab:AddToggle({
+            Name = "Auto Skill U",
+            Default = false,
+            Callback = function(Value)
+                getgenv().autoSkillU = Value
+                autoSkillU()
+    end    
+    })
+
+
+    Tab:AddToggle({
+        Name = "Auto Skill T",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillT = Value
+            autoSkillT()
+        end    
+        })
+    
+
+    Tab:AddToggle({
+        Name = "Auto Skill O",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillO = Value
+            autoSkillO()
+        end    
+        })
+
+
+    Tab:AddToggle({
+        Name = "Auto Skill F (Use With Sword)",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillF = Value
+            autoSkillF()
+        end    
+        })
+    
+
+    Tab:AddToggle({
+        Name = "Auto Skill Z (Use With Stand and Put on Key 5)",
+        Default = false, 
+        Callback = function(Value)
+            getgenv().autoSkillZS = Value
+            autoSkillZS()
+        end    
+        })
+
+
+    Tab:AddToggle({
+        Name = "Auto Skill X (Use With Stand and Put on Key 5)",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillXS = Value
+            autoSkillXS()
+        end    
+        })
+
+
+    Tab:AddToggle({
+        Name = "Auto Skill C (Use With Stand and Put on Key 5)",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillCS = Value
+            autoSkillCS()
+        end    
+        })
+
+
+    Tab:AddToggle({
+        Name = "Auto Skill V (Use With Stand and Put on Key 5)",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSkillVS = Value
+            autoSkillVS()
+        end    
+        })
+
+
+        Tab:AddToggle({
+            Name = "Auto Skill Z (Use With Quirk and Put on Key 6)",
+            Default = false, 
+            Callback = function(Value)
+                getgenv().autoSkillZQ = Value
+                autoSkillZQ()
+            end    
+            })
+    
+    
+        Tab:AddToggle({
+            Name = "Auto Skill X (Use With Quirk and Put on Key 6)",
+            Default = false,
+            Callback = function(Value)
+                getgenv().autoSkillXQ = Value
+                autoSkillXQ()
+            end    
+            })
+    
+    
+        Tab:AddToggle({
+            Name = "Auto Skill C (Use With Quirk and Put on Key 6)",
+            Default = false,
+            Callback = function(Value)
+                getgenv().autoSkillCQ = Value
+                autoSkillCQ()
+            end    
+            })
+    
+    
+        Tab:AddToggle({
+            Name = "Auto Skill V (Use With Quirk and Put on Key 6)",
+            Default = false,
+            Callback = function(Value)
+                getgenv().autoSkillVQ = Value
+                autoSkillVQ()
+            end    
+            })
+
+
+            Tab:AddToggle({
+                Name = "Auto Skill Z (Use With Fruit and Put on key 7)",
+                Default = false, 
+                Callback = function(Value)
+                    getgenv().autoSkillZF = Value
+                    autoSkillZF()
+                end    
+                })
+        
+        
+            Tab:AddToggle({
+                Name = "Auto Skill X (Use With Fruit and Put on key 7)",
+                Default = false,
+                Callback = function(Value)
+                    getgenv().autoSkillXF = Value
+                    autoSkillXF()
+                end    
+                })
+        
+        
+            Tab:AddToggle({
+                Name = "Auto Skill C (Use With Fruit and Put on key 7)",
+                Default = false,
+                Callback = function(Value)
+                    getgenv().autoSkillCF = Value
+                    autoSkillCF()
+                end    
+                })
+        
+        
+            Tab:AddToggle({
+                Name = "Auto Skill V (Use With Fruit and Put on key 7)",
+                Default = false,
+                Callback = function(Value)
+                    getgenv().autoSkillVF = Value
+                    autoSkillVF()
+                end    
+                })
 
 
 
