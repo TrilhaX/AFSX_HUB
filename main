@@ -1,18 +1,6 @@
 if game.PlaceId == 11545598432 then
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    local Window = OrionLib:MakeWindow({Name = "Trilha Hub | [🦸‍♂️UPDATE 1] Anime Fighting Simulator X", HidePremium = false, IntroText = "Trilha Hub", SaveConfig = true, ConfigFolder = "Trilha Hub"})
-    
-
-
-
-    getgenv().autoGFruit = true
-    
-    getgenv().autoChest = true
-    
-    getgenv().autoSummon = true
-    
-
-    getgenv().autoSkillT = true
+    local Window = OrionLib:MakeWindow({Name = "Trilha Hub | [👹UPDATE 3] Anime Fighting Simulator X", HidePremium = false, IntroText = "Trilha Hub", SaveConfig = true, ConfigFolder = "Trilha Hub"})
 
     
     function autoStrenght()
@@ -63,8 +51,10 @@ if game.PlaceId == 11545598432 then
         while getgenv().autoSummon == true do
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(111.258568, 63.2120171, -250.672852, 0.299545586, -1.08275145e-07, -0.954082012, -2.20305623e-08, 1, -1.20402973e-07, 0.954082012, 5.70851384e-08, 0.299545586)
         keypress("0x52")
-        keyrelease("0x52")  
-        wait(1) 
+        keyrelease("0x52")
+        keypress("0x45")
+        keyrelease("0x45")
+        wait(0.1)
         end
     end
     
@@ -165,15 +155,15 @@ if game.PlaceId == 11545598432 then
             game:GetService("ReplicatedStorage").Events["Stats/RemoteEvent"]:FireServer(ohString1, ohString2)
             wait(1)
         end
-    end 
-    
+    end  
+
     function autoDura()
         while getgenv().autoDura == true do
             local ohString1 = "TrainStat"
             local ohString2 = "Durability"
     
             game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-            wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+        wait()
         end
     end 
     
@@ -592,205 +582,6 @@ if game.PlaceId == 11545598432 then
         end  
     end
 
-
-    function TeleportF()
-        while getgenv().TeleportF == true do
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6.02720022, 57.9452477, -220.701096, -0.258864403, 0, 0.965913713, 0, 1, 0, -0.965913713, 0, -0.258864403)
-        wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-        local ohString1 = "StartQuest"
-        local ohString2 = "FirstQuest"
-
-        game:GetService("ReplicatedStorage").Events["Quests/RemoteEvent"]:FireServer(ohString1, ohString2)
-        local ohString1 = "Follow"
-        local ohString2 = "FirstQuest"
-
-        game:GetService("ReplicatedStorage").Events["Quests/RemoteEvent"]:FireServer(ohString1, ohString2)
-    end
-    end
-
-    function TeleporteE()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-195.236145, 14.7526369, -9.80304146, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-        wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-    end
-
-    function autoMon()
-        while getgenv().autoMon == true do
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1558.55933, 24.4332237, -170.542786, -0.833271444, -1.34692639e-08, 0.552864134, -3.0353366e-08, 1, -2.13855973e-08, -0.552864134, -3.46012925e-08, -0.833271444)  
-        wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-        local ohString1 = "Equip"
-        local ohString2 = "Sword"
-        local ohBoolean3 = true
-    
-        game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
-        wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-        local ohString1 = "TrainStat"
-        local ohString2 = "Sword"
-    
-        game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-        wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-    end
-    end
-    
-    
-    function autoOver()
-    while getgenv().autoOver == true do
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-276.370972, -631.597534, 877.319397, 0.473914742, 1.73955197e-08, 0.88057071, 9.80860264e-08, 1, -7.25437843e-08, -0.88057071, 1.20751253e-07, 0.473914742)
-    wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-    local ohString1 = "Equip"
-    local ohString2 = "Sword"
-    local ohBoolean3 = true
-    
-    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-276.370972, -631.597534, 877.319397, 0.473914742, 1.73955197e-08, 0.88057071, 9.80860264e-08, 1, -7.25437843e-08, -0.88057071, 1.20751253e-07, 0.473914742)
-    wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-    local ohString1 = "TrainStat"
-    local ohString2 = "Sword"
-    
-    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-276.370972, -631.597534, 877.319397, 0.473914742, 1.73955197e-08, 0.88057071, 9.80860264e-08, 1, -7.25437843e-08, -0.88057071, 1.20751253e-07, 0.473914742)
-    wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-    end
-    end
-    
-    
-    function autoShukaku()
-    while getgenv().autoShukaku == true do
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1549.44104, 14.0959501, -587.82074, 0.932023108, -8.32961007e-08, -0.362398803, 1.01528357e-07, 1, 3.12657633e-08, 0.362398803, -6.59341737e-08, 0.932023108)
-    wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-    local ohString1 = "Equip"
-    local ohString2 = "Sword"
-    local ohBoolean3 = true
-    
-    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1549.44104, 14.0959501, -587.82074, 0.932023108, -8.32961007e-08, -0.362398803, 1.01528357e-07, 1, 3.12657633e-08, 0.362398803, -6.59341737e-08, 0.932023108)
-    wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-    local ohString1 = "TrainStat"
-    local ohString2 = "Sword"
-    
-    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1549.44104, 14.0959501, -587.82074, 0.932023108, -8.32961007e-08, -0.362398803, 1.01528357e-07, 1, 3.12657633e-08, 0.362398803, -6.59341737e-08, 0.932023108)
-    wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-    end
-    end
-    
-    
-    function autoTitan()
-    while getgenv().autoTitan == true do
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1964.5343, 175.598969, -2759.64551, -0.984346747, 6.97201941e-08, 0.176242813, 7.95054618e-08, 1, 4.8460123e-08, -0.176242813, 6.17138269e-08, -0.984346747)
-    local ohString1 = "Equip"
-    local ohString2 = "Sword"
-    local ohBoolean3 = true
-    
-    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1964.5343, 175.598969, -2759.64551, -0.984346747, 6.97201941e-08, 0.176242813, 7.95054618e-08, 1, 4.8460123e-08, -0.176242813, 6.17138269e-08, -0.984346747)
-    wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-    local ohString1 = "TrainStat"
-    local ohString2 = "Sword"
-    
-    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1964.5343, 175.598969, -2759.64551, -0.984346747, 6.97201941e-08, 0.176242813, 7.95054618e-08, 1, 4.8460123e-08, -0.176242813, 6.17138269e-08, -0.984346747)
-    wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-    
-    end
-    end
-    
-    
-    function autoArlong()
-    while getgenv().autoArlong == true do
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1964.5343, 175.598969, -2759.64551, -0.984346747, 6.97201941e-08, 0.176242813, 7.95054618e-08, 1, 4.8460123e-08, -0.176242813, 6.17138269e-08, -0.984346747)
-    local ohString1 = "Equip"
-    local ohString2 = "Sword"
-    local ohBoolean3 = true
-    
-    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1964.5343, 175.598969, -2759.64551, -0.984346747, 6.97201941e-08, 0.176242813, 7.95054618e-08, 1, 4.8460123e-08, -0.176242813, 6.17138269e-08, -0.984346747)
-    wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-    local ohString1 = "TrainStat"
-    local ohString2 = "Sword"
-    
-    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1964.5343, 175.598969, -2759.64551, -0.984346747, 6.97201941e-08, 0.176242813, 7.95054618e-08, 1, 4.8460123e-08, -0.176242813, 6.17138269e-08, -0.984346747)
-    wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-    end
-    end
-    
-    
-    function autoHand()
-    while getgenv().autoHand == true do
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-704.1297, 195.137543, -2253.7915, 0.90629667, 0, 0.422642082, 0, 1, 0, -0.422642082, 0, 0.90629667) 
-    local ohString1 = "Equip"
-    local ohString2 = "Sword"
-    local ohBoolean3 = true
-    
-    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-704.1297, 195.137543, -2253.7915, 0.90629667, 0, 0.422642082, 0, 1, 0, -0.422642082, 0, 0.90629667) 
-    wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-    local ohString1 = "TrainStat"
-    local ohString2 = "Sword"
-    
-    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-704.1297, 195.137543, -2253.7915, 0.90629667, 0, 0.422642082, 0, 1, 0, -0.422642082, 0, 0.90629667) 
-    wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-    end
-    end
-    
-    
-    function autoFreeza()
-    while getgenv().autoFreeza == true do
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1176.94214, 32.4626999, 1806.72327, 3.47877119e-07, 0.992150664, -0.125048324, 0.0082475245, 0.125044078, 0.992116928, 0.999965966, -0.00103168434, -0.00818274356) 
-    local ohString1 = "Equip"
-    local ohString2 = "Sword"
-    local ohBoolean3 = true
-    
-    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1176.94214, 32.4626999, 1806.72327, 3.47877119e-07, 0.992150664, -0.125048324, 0.0082475245, 0.125044078, 0.992116928, 0.999965966, -0.00103168434, -0.00818274356) 
-    wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-    local ohString1 = "TrainStat"
-    local ohString2 = "Sword"
-    
-    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1176.94214, 32.4626999, 1806.72327, 3.47877119e-07, 0.992150664, -0.125048324, 0.0082475245, 0.125044078, 0.992116928, 0.999965966, -0.00103168434, -0.00818274356) 
-    wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-    end
-    end
-    
-    function autoPain()
-    while getgenv().autoPain == true do
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2060.0835, 1222.37878, -1480.53186, 0.707134247, -1.46074832e-08, 0.707079291, 6.50979759e-09, 1, 1.41485996e-08, -0.707079291, -5.40201661e-09, 0.707134247)   
-    
-    local ohString1 = "Equip"
-    local ohString2 = "Sword"
-    local ohBoolean3 = true
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2060.0835, 1220.37878, -1480.53186, 0.707134247, -1.46074832e-08, 0.707079291, 6.50979759e-09, 1, 1.41485996e-08, -0.707079291, -5.40201661e-09, 0.707134247)  
-    
-    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2060.0835, 1222.37878, -1480.53186, 0.707134247, -1.46074832e-08, 0.707079291, 6.50979759e-09, 1, 1.41485996e-08, -0.707079291, -5.40201661e-09, 0.707134247)  
-    local ohString1 = "TrainStat"
-    local ohString2 = "Sword"
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2060.0835, 1220.37878, -1480.53186, 0.707134247, -1.46074832e-08, 0.707079291, 6.50979759e-09, 1, 1.41485996e-08, -0.707079291, -5.40201661e-09, 0.707134247)   
-    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-    
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2060.0835, 1222.37878, -1480.53186, 0.707134247, -1.46074832e-08, 0.707079291, 6.50979759e-09, 1, 1.41485996e-08, -0.707079291, -5.40201661e-09, 0.707134247)  
-    local ohString1 = "TrainStat"
-    local ohString2 = "Sword"
-    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-    
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2060.0835, 1220.37878, -1480.53186, 0.707134247, -1.46074832e-08, 0.707079291, 6.50979759e-09, 1, 1.41485996e-08, -0.707079291, -5.40201661e-09, 0.707134247)  
-    local ohString1 = "TrainStat"
-    local ohString2 = "Sword"
-    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2060.0835, 1222.37878, -1480.53186, 0.707134247, -1.46074832e-08, 0.707079291, 6.50979759e-09, 1, 1.41485996e-08, -0.707079291, -5.40201661e-09, 0.707134247)   
-    local ohString1 = "TrainStat"
-    local ohString2 = "Sword"
-    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2060.0835, 1220.37878, -1480.53186, 0.707134247, -1.46074832e-08, 0.707079291, 6.50979759e-09, 1, 1.41485996e-08, -0.707079291, -5.40201661e-09, 0.707134247)   
-    local ohString1 = "TrainStat"
-    local ohString2 = "Sword"
-    game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-        end
-    end
-
-
     function autoGFruit()
         if getgenv().autoGFruit == true then
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(189.09314, 11.5979357, -296.132324, 1, 0, 0, 0, 1, 0, 0, 0, 1)
@@ -1048,327 +839,297 @@ if game.PlaceId == 11545598432 then
 
 
     function autoST100()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-75.216713, 58.1467056, -324.199036, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-75.216713, 58.1467056, -324.199036, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(1)
+    end
+
+function autoST10K()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-432.436646, 18.3774567, -314.283661, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+        wait(1)
+    end
+
+function autoST100K()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(255.969086, 21.2049255, -679.106445, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+        wait(1) 
+    end
+
+
+function autoST1M()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(395.912048, 22.0744591, -101.921761, 0.999391913, -0, -0.0348687991, 0, 1, -0, 0.0348687991, 0, 0.999391913)
+        wait(1) 
+    end
+
+
+function autoST10M()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-488.724304, 29.0049934, 526.725342, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(1) 
+    end
+
+
+function autoST100M()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1553.05664, 59.7584343, -171.284561, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+        wait(1) 
+    end
+
+
+function autoST1B()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-990.519714, 111.183273, 1739.40039, 0.985467255, -0, -0.169865474, 0, 1, -0, 0.169865474, 0, 0.985467255)
+        wait(1) 
+    end
+
+
+function autoST100B()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1719.23096, 40.5560036, 870.237976, -0.258864403, 0, 0.965913713, 0, 1, 0, -0.965913713, 0, -0.258864403)
+        wait(1) 
+    end
+
+
+    function autoST1T()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(        -3.10949707, -1160.40076, 514.621155, -0.998729467, 0, 0.0503960401, 0, 1, 0, -0.0503960401, 0, -0.998729467)
+        wait(1) 
+    end
+
+
+function autoD100()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(640.094788, 31.3790283, -111.974648, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(1) 
+    end
+
+
+function autoD10K()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-184.765793, 36.2128983, 243.847656, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+        wait(1) 
+    end
+
+
+function autoD100K()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1284.81531, 27.1992378, -309.127991, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(1) 
+    end
+
+
+function autoD1M()
+
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(520.457458, 96.012207, -2655.03931, -0.606881857, 0, 0.794792116, 0, 1, 0, -0.794792116, 0, -0.606881857)
+        wait(1) 
+    end
+
+
+function autoD10M()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1570.95984, 471.179565, 1164.24109, -0.872974753, 0, 0.487765402, 0, 1, 0, -0.487765402, 0, -0.872974753)
+        wait(1) 
+    end
+
+
+function autoD100M()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1716.58105, 1051.04724, 808.403992, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(1) 
+    end
+
+
+function autoD1B()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-170.332001, 215.817993, -1776.38904, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(1) 
+    end
+
+
+function autoD100B()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1172.34387, 79.4660034, 1663.1803, 0.995853126, 0, 0.0909752697, 0, 1, 0, -0.0909752697, 0, 0.995853126)
+        wait(1) 
+    end
+
+
+    function autoD1T()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1258.98474, 256.930573, -1700.40125, 0.969737649, -0, -0.244149387, 0, 1, -0, 0.244149387, 0, 0.969737649)
+        wait(1) 
+    end
+
+
+function autoC100()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10.6523638, 102.272247, -83.0591965, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(1) 
+    end
+
+
+function autoC10K()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-300.378632, 28.6114922, -475.946289, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+        wait(1) 
+    end
+
+
+function autoC100K()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(199.645706, -0.64787519, 276.278259, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+        wait(1) 
+    end
+
+
+function autoC1M()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(288.047119, 312.31488, 592.816284, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+        wait(1) 
+    end
+
+
+function autoC15M()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1118.95239, 232.186081, -2285.07471, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+        wait(1) 
+    end
+
+
+function autoC100M()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(905.902527, 360.884216, -3463.47339, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+        wait(1) 
+    end
+
+
+function autoC1B()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-158.593002, 19.2390003, 1615.83997, -0.258864403, 0, 0.965913713, 0, 1, 0, -0.965913713, 0, -0.258864403)
+        wait(1) 
+    end
+
+
+function autoC100B()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1354.42029, 194.923019, 2280.61084, 0.422592998, 0, 0.906319618, 0, 1, 0, -0.906319618, 0, 0.422592998)
+        wait(1) 
+    end
+
+
+    function autoC1T()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1949.16638, 45.0408516, -626.517334, 0.18026942, 0, 0.983617365, 0, 1, 0, -0.983617365, 0, 0.18026942)
+        wait(1) 
+    end
+
+
+function autoS100()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-23.6789093, 27.2680569, -545.889038, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(1) 
+    end
+
+    function autoS10K()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-432.436646, 18.3774567, -314.283661, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+        wait(1) 
+    end
+
+    function autoS100K()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-475.619049, 65.3440018, 103.942825, 0.866007268, 0, 0.500031412, 0, 1, 0, -0.500031412, 0, 0.866007268)
+        wait(1) 
+    end
+
+    function autoS1M()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1148.57593, 82.5930099, 2383.20117, 0.422592998, 0, 0.906319618, 0, 1, 0, -0.906319618, 0, 0.422592998)
+        wait(1) 
+    end
+    function TeleportEN()
+        while getgenv().TeleportEN == true do
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-195.236145, 14.7526369, -9.80304146, 1, 0, 0, 0, 1, 0, 0, 0, 1) 
             wait(1)
-        end
+            local ohString1 = "StartQuest"
+            local ohString2 = "BanditQuest"
+            local ohNumber3 = 3
 
-    function autoST10K()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-432.436646, 18.3774567, -314.283661, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+            game:GetService("ReplicatedStorage").Events["Quests/RemoteEvent"]:FireServer(ohString1, ohString2, ohNumber3)
+            wait(0.1)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(287.171936, 20.1805782, 177.624908, 0.0480446592, -2.22681233e-08, -0.99884516, 1.13987142e-07, 1, -1.68110628e-08, 0.99884516, -1.13047825e-07, 0.0480446592) 
+            wait(0.1)
+            local ohString1 = "Equip"
+            local ohString2 = "Sword"
+            local ohBoolean3 = true
+
+            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
+            local ohString1 = "TrainStat"
+            local ohString2 = "Sword"
+
+            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+wait()
+            local ohString1 = "TrainStat"
+            local ohString2 = "Sword"
+
+            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+wait()
+            local ohString1 = "TrainStat"
+            local ohString2 = "Sword"
+
+            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+wait()
+            local ohString1 = "TrainStat"
+            local ohString2 = "Sword"
+
+            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+wait()
+            local ohString1 = "TrainStat"
+            local ohString2 = "Sword"
+
+            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+wait()
+            local ohString1 = "TrainStat"
+            local ohString2 = "Sword"
+
+            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+wait()
+            local ohString1 = "TrainStat"
+            local ohString2 = "Sword"
+
+            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+wait()
+            local ohString1 = "TrainStat"
+            local ohString2 = "Sword"
+
+            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+wait()
+            local ohString1 = "TrainStat"
+            local ohString2 = "Sword"
+
+            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+wait()
+            local ohString1 = "TrainStat"
+            local ohString2 = "Sword"
+
+            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+wait()
+            local ohString1 = "TrainStat"
+            local ohString2 = "Sword"
+
+            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+wait()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-195.236145, 14.7526369, -9.80304146, 1, 0, 0, 0, 1, 0, 0, 0, 1) 
+                 keypress("0x45")
+        keyrelease("0x45")
             wait(1)
-        end
-
-    function autoST100K()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(255.969086, 21.2049255, -679.106445, 0, 0, 1, 0, 1, -0, -1, 0, 0)
-            wait(1) 
-        end
-    
-
-    function autoST1M()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(395.912048, 22.0744591, -101.921761, 0.999391913, -0, -0.0348687991, 0, 1, -0, 0.0348687991, 0, 0.999391913)
-            wait(1) 
-        end
-    
-
-    function autoST10M()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-488.724304, 29.0049934, 526.725342, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-            wait(1) 
-        end
-    
-
-    function autoST100M()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1553.05664, 59.7584343, -171.284561, 0, 0, 1, 0, 1, -0, -1, 0, 0)
-            wait(1) 
-        end
-    
-
-    function autoST1B()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-990.519714, 111.183273, 1739.40039, 0.985467255, -0, -0.169865474, 0, 1, -0, 0.169865474, 0, 0.985467255)
-            wait(1) 
-        end
-    
-
-    function autoST100B()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1719.23096, 40.5560036, 870.237976, -0.258864403, 0, 0.965913713, 0, 1, 0, -0.965913713, 0, -0.258864403)
-            wait(1) 
-        end
-    
-
-    function autoD100()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(640.094788, 31.3790283, -111.974648, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-            wait(1) 
-        end
-    
-
-    function autoD10K()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-184.765793, 36.2128983, 243.847656, 0, 0, 1, 0, 1, -0, -1, 0, 0)
-            wait(1) 
-        end
-    
-
-    function autoD100K()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1284.81531, 27.1992378, -309.127991, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-            wait(1) 
-        end
-    
-
-    function autoD1M()
-
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(520.457458, 96.012207, -2655.03931, -0.606881857, 0, 0.794792116, 0, 1, 0, -0.794792116, 0, -0.606881857)
-            wait(1) 
-        end
+    end
+    end
 
 
-    function autoD10M()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1570.95984, 471.179565, 1164.24109, -0.872974753, 0, 0.487765402, 0, 1, 0, -0.487765402, 0, -0.872974753)
-            wait(1) 
-        end
-    
 
-    function autoD100M()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1716.58105, 1051.04724, 808.403992, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-            wait(1) 
-        end
-    
+    function TeleportS()
+        while getgenv().TeleportS == true do
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1115.87427, 67.8538895, 1354.78479, -0.937087655, 8.26632629e-08, 0.349094182, 8.72217782e-08, 1, -2.66064437e-09, -0.349094182, 2.79553571e-08, -0.937087655) 
+            wait(1)
+            local ohString1 = "StartQuest"
+            local ohString2 = "BanditQuest7"
+            local ohNumber3 = 3
 
-    function autoD1B()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-170.332001, 215.817993, -1776.38904, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-            wait(1) 
-        end
-    
+            game:GetService("ReplicatedStorage").Events["Quests/RemoteEvent"]:FireServer(ohString1, ohString2, ohNumber3)
+            wait(0.1)
+             
+            wait(0.1)
+            local ohString1 = "Equip"
+            local ohString2 = "Sword"
+            local ohBoolean3 = true
 
-    function autoD100B()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1172.34387, 79.4660034, 1663.1803, 0.995853126, 0, 0.0909752697, 0, 1, 0, -0.0909752697, 0, 0.995853126)
-            wait(1) 
-        end
-    
+            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
+           
+wait()
+            local ohString1 = "Equip"
+            local ohString2 = "Sword"
+            local ohBoolean3 = false
 
-    function autoC100()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10.6523638, 102.272247, -83.0591965, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-            wait(1) 
-        end
-    
-
-    function autoC10K()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-300.378632, 28.6114922, -475.946289, 0, 0, 1, 0, 1, -0, -1, 0, 0)
-            wait(1) 
-        end
-    
-
-    function autoC100K()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(199.645706, -0.64787519, 276.278259, 0, 0, 1, 0, 1, -0, -1, 0, 0)
-            wait(1) 
-        end
-    
-
-    function autoC1M()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(288.047119, 312.31488, 592.816284, 0, 0, 1, 0, 1, -0, -1, 0, 0)
-            wait(1) 
-        end
-    
-
-    function autoC15M()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1118.95239, 232.186081, -2285.07471, 0, 0, 1, 0, 1, -0, -1, 0, 0)
-            wait(1) 
-        end
-    
-
-    function autoC100M()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(905.902527, 360.884216, -3463.47339, 0, 0, 1, 0, 1, -0, -1, 0, 0)
-            wait(1) 
-        end
-    
-
-    function autoC1B()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-158.593002, 19.2390003, 1615.83997, -0.258864403, 0, 0.965913713, 0, 1, 0, -0.965913713, 0, -0.258864403)
-            wait(1) 
-        end
-    
-
-    function autoC100B()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1354.42029, 194.923019, 2280.61084, 0.422592998, 0, 0.906319618, 0, 1, 0, -0.906319618, 0, 0.422592998)
-            wait(1) 
-        end
-    
-
-    function autoS100()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-23.6789093, 27.2680569, -545.889038, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-            wait(1) 
-        end
-
-        function autoS10K()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-432.436646, 18.3774567, -314.283661, 0, 0, 1, 0, 1, -0, -1, 0, 0)
-            wait(1) 
-        end
-
-        function autoS100K()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-475.619049, 65.3440018, 103.942825, 0.866007268, 0, 0.500031412, 0, 1, 0, -0.500031412, 0, 0.866007268)
-            wait(1) 
-        end
-
-        function autoS1M()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1148.57593, 82.5930099, 2383.20117, 0.422592998, 0, 0.906319618, 0, 1, 0, -0.906319618, 0, 0.422592998)
-            wait(1) 
-        end
-    
-        function TeleportEN()
-            while getgenv().TeleportEN == true do
-                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-195.236145, 14.7526369, -9.80304146, 1, 0, 0, 0, 1, 0, 0, 0, 1) 
-                wait(1)
-                local ohString1 = "StartQuest"
-                local ohString2 = "BanditQuest"
-                local ohNumber3 = 3
-    
-                game:GetService("ReplicatedStorage").Events["Quests/RemoteEvent"]:FireServer(ohString1, ohString2, ohNumber3)
-                wait(0.1)
-                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(287.171936, 20.1805782, 177.624908, 0.0480446592, -2.22681233e-08, -0.99884516, 1.13987142e-07, 1, -1.68110628e-08, 0.99884516, -1.13047825e-07, 0.0480446592) 
-                wait(0.1)
-                local ohString1 = "Equip"
-                local ohString2 = "Sword"
-                local ohBoolean3 = true
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
-                local ohString1 = "TrainStat"
-                local ohString2 = "Sword"
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-                local ohString1 = "TrainStat"
-                local ohString2 = "Sword"
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-                local ohString1 = "TrainStat"
-                local ohString2 = "Sword"
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-                local ohString1 = "TrainStat"
-                local ohString2 = "Sword"
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-                local ohString1 = "TrainStat"
-                local ohString2 = "Sword"
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-                local ohString1 = "TrainStat"
-                local ohString2 = "Sword"
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-                local ohString1 = "TrainStat"
-                local ohString2 = "Sword"
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-                local ohString1 = "TrainStat"
-                local ohString2 = "Sword"
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-                local ohString1 = "TrainStat"
-                local ohString2 = "Sword"
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-                local ohString1 = "TrainStat"
-                local ohString2 = "Sword"
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-                local ohString1 = "TrainStat"
-                local ohString2 = "Sword"
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-195.236145, 14.7526369, -9.80304146, 1, 0, 0, 0, 1, 0, 0, 0, 1) 
-                     keypress("0x45")
+            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1115.87427, 67.8538895, 1354.78479, -0.937087655, 8.26632629e-08, 0.349094182, 8.72217782e-08, 1, -2.66064437e-09, -0.349094182, 2.79553571e-08, -0.937087655) 
+            keypress("0x45")
             keyrelease("0x45")
-                wait(1)
-        end
-        end
-    
-    
-    
-        function TeleportS()
-            while getgenv().TeleportS == true do
-                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1115.87427, 67.8538895, 1354.78479, -0.937087655, 8.26632629e-08, 0.349094182, 8.72217782e-08, 1, -2.66064437e-09, -0.349094182, 2.79553571e-08, -0.937087655) 
-                wait(1)
-                local ohString1 = "StartQuest"
-                local ohString2 = "BanditQuest7"
-                local ohNumber3 = 3
-    
-                game:GetService("ReplicatedStorage").Events["Quests/RemoteEvent"]:FireServer(ohString1, ohString2, ohNumber3)
-                wait(0.1)
-                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1438.36987, 66.1035461, 1988.25781, -0.77754879, 0, -0.628822744, 0, 1, 0, 0.628822744, 0, -0.77754879) 
-                wait(0.1)
-                local ohString1 = "Equip"
-                local ohString2 = "Sword"
-                local ohBoolean3 = true
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
-                local ohString1 = "TrainStat"
-                local ohString2 = "Sword"
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-                local ohString1 = "TrainStat"
-                local ohString2 = "Sword"
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-                local ohString1 = "TrainStat"
-                local ohString2 = "Sword"
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-                local ohString1 = "TrainStat"
-                local ohString2 = "Sword"
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-                local ohString1 = "TrainStat"
-                local ohString2 = "Sword"
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-                local ohString1 = "TrainStat"
-                local ohString2 = "Sword"
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-                local ohString1 = "TrainStat"
-                local ohString2 = "Sword"
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-                local ohString1 = "TrainStat"
-                local ohString2 = "Sword"
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-                local ohString1 = "TrainStat"
-                local ohString2 = "Sword"
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-                local ohString1 = "TrainStat"
-                local ohString2 = "Sword"
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-                local ohString1 = "TrainStat"
-                local ohString2 = "Sword"
-    
-                game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-                wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1115.87427, 67.8538895, 1354.78479, -0.937087655, 8.26632629e-08, 0.349094182, 8.72217782e-08, 1, -2.66064437e-09, -0.349094182, 2.79553571e-08, -0.937087655) 
-                     keypress("0x45")
-            keyrelease("0x45")
-                wait(1)
-        end
-        end
+            wait(1)
+    end
+    end
+
 
         function autoChest()
             if getgenv().autoChest == true then
@@ -1504,7 +1265,7 @@ if game.PlaceId == 11545598432 then
 
         function autoSkillY()
             while getgenv().autoSkillY== true do
-                wait(0.0000000000000000000000000000000000000000000000000000001)
+wait()
                 keypress("0x59")
                 keyrelease("0x59")
                 end
@@ -1513,7 +1274,7 @@ if game.PlaceId == 11545598432 then
         
             function autoSkillO()
                 while getgenv().autoSkillO == true do
-                    wait(0.0000000000000000000000000000000000000000000000000000001)
+    wait()
                     keypress("0x4F")
                     keyrelease("0x4F")
                     end
@@ -1521,7 +1282,7 @@ if game.PlaceId == 11545598432 then
         
             function autoSkillT()
                 while getgenv().autoSkillT == true do
-                    wait(0.0000000000000000000000000000000000000000000000000000001)
+    wait()
                     keypress("0x54")
                     keyrelease("0x54")
                     end
@@ -1529,10 +1290,10 @@ if game.PlaceId == 11545598432 then
         
                 function autoSkillF()
                 while getgenv().autoSkillF == true do
-                    wait(0.0000000000000000000000000000000000000000000000000000001)
+    wait()
                     keypress("0x34")
                     keyrelease("0x34")
-                    wait(0.0000000000000000000000000000000000000000000000000000001)
+    wait()
                     keypress("0x46")
                     keyrelease("0x46")
                     end
@@ -1540,10 +1301,10 @@ if game.PlaceId == 11545598432 then
         
             function autoSkillI()
                 while getgenv().autoSkillI == true do
-                    wait(0.0000000000000000000000000000000000000000000000000000001)
+    wait()
                     keypress("0x34")
                     keyrelease("0x34")
-                    wait(0.0000000000000000000000000000000000000000000000000000001)
+    wait()
                     keypress("0x49")
                     keyrelease("0x49")
                     wait(120)
@@ -1553,7 +1314,7 @@ if game.PlaceId == 11545598432 then
                 
             function autoSkillU()
                 while getgenv().autoSkillU == true do
-                    wait(0.0000000000000000000000000000000000000000000000000000001)
+    wait()
                     keypress("0x55")
                     keyrelease("0x55")
                     end
@@ -1573,10 +1334,10 @@ if game.PlaceId == 11545598432 then
         
                  function autoSkillR()
                         while getgenv().autoSkillR == true do
-                            wait(0.0000000000000000000000000000000000000000000000000000001)
+            wait()
                             keypress("0x34")
                             keyrelease("0x34")
-                            wait(0.0000000000000000000000000000000000000000000000000000001)
+            wait()
                             keypress("0x52")
                             keyrelease("0x52")
                             end
@@ -1585,13 +1346,13 @@ if game.PlaceId == 11545598432 then
         
         function autoSkillZS()
             while getgenv().autoSkillZS == true do
-                wait(0.0000000000000000000000000000000000000000000000000000001)
+wait()
                 keypress("0x35")
                 keyrelease("0x35")
                 wait(1.35)
                 keypress("0x5A")
                 keyrelease("0x5A")
-                wait(0.0000000000000000000000000000000000000000000000000000001)
+wait()
                 keypress("0x35")
                 keyrelease("0x35")
                 end
@@ -1599,13 +1360,13 @@ if game.PlaceId == 11545598432 then
         
             function autoSkillXS()
                 while getgenv().autoSkillXS == true do
-                    wait(0.0000000000000000000000000000000000000000000000000000001)
+    wait()
                     keypress("0x35")
                     keyrelease("0x35")
                     wait(1.35)
                     keypress("0x58")
                     keyrelease("0x58")
-                    wait(0.0000000000000000000000000000000000000000000000000000001)
+    wait()
                     keypress("0x35")
                     keyrelease("0x35")
                     end
@@ -1614,13 +1375,13 @@ if game.PlaceId == 11545598432 then
         
         function autoSkillCS()
             while getgenv().autoSkillCS == true do
-                wait(0.0000000000000000000000000000000000000000000000000000001)
+wait()
                 keypress("0x35")
                 keyrelease("0x35")
                 wait(1.35)
                 keypress("0x43")
                 keyrelease("0x43")
-                wait(0.0000000000000000000000000000000000000000000000000000001)
+wait()
                 keypress("0x35")
                 keyrelease("0x35")
                 end
@@ -1629,13 +1390,13 @@ if game.PlaceId == 11545598432 then
         
             function autoSkillVS()
                 while getgenv().autoSkillVS == true do
-                    wait(0.0000000000000000000000000000000000000000000000000000001)
+    wait()
                     keypress("0x35")
                     keyrelease("0x35")
                     wait(1.35)
                     keypress("0x56")
                     keyrelease("0x56")
-                    wait(0.0000000000000000000000000000000000000000000000000000001)
+    wait()
                     keypress("0x35")
                     keyrelease("0x35")
                     end
@@ -1644,13 +1405,13 @@ if game.PlaceId == 11545598432 then
         
                 function autoSkillZQ()
                     while getgenv().autoSkillZQ == true do
-                        wait(0.0000000000000000000000000000000000000000000000000000001)
+        wait()
                         keypress("0x36")
                         keyrelease("0x36")
                         wait(0.1)
                         keypress("0x5A")
                         keyrelease("0x5A")
-                        wait(0.0000000000000000000000000000000000000000000000000000001)
+        wait()
                         keypress("0x36")
                         keyrelease("0x36")
                         end
@@ -1658,13 +1419,13 @@ if game.PlaceId == 11545598432 then
                 
                     function autoSkillXQ()
                         while getgenv().autoSkillXQ == true do
-                            wait(0.0000000000000000000000000000000000000000000000000000001)
+            wait()
                             keypress("0x36")
                             keyrelease("0x36")
                             wait(0.1)
                             keypress("0x58")
                             keyrelease("0x58")
-                            wait(0.0000000000000000000000000000000000000000000000000000001)
+            wait()
                             keypress("0x36")
                             keyrelease("0x36")
                             end
@@ -1673,13 +1434,13 @@ if game.PlaceId == 11545598432 then
                 
                 function autoSkillCQ()
                     while getgenv().autoSkillCQ == true do
-                        wait(0.0000000000000000000000000000000000000000000000000000001)
+        wait()
                         keypress("0x36")
                         keyrelease("0x36")
                         wait(0.1)
                         keypress("0x43")
                         keyrelease("0x43")
-                        wait(0.0000000000000000000000000000000000000000000000000000001)
+        wait()
                         keypress("0x36")
                         keyrelease("0x36")
                         end
@@ -1688,22 +1449,22 @@ if game.PlaceId == 11545598432 then
                 
                     function autoSkillVQ()
                         while getgenv().autoSkillVQ == true do
-                            wait(0.0000000000000000000000000000000000000000000000000000001)
+            wait()
                             keypress("0x36")
                             keyrelease("0x36")
                             wait(0.1)
                             keypress("0x56")
                             keyrelease("0x56")
-                            wait(0.0000000000000000000000000000000000000000000000000000001)
+            wait()
                             keypress("0x36")
                             keyrelease("0x36")
                             end
                         end
-
-
+    
+    
                         function autoSkillZF()
                             while getgenv().autoSkillZF == true do
-                                wait(0.0000000000000000000000000000000000000000000000000000001)
+                wait()
                                 keypress("0x37")
                                 keyrelease("0x37")
                                 wait(3.50)
@@ -1717,7 +1478,7 @@ if game.PlaceId == 11545598432 then
                         
                             function autoSkillXF()
                                 while getgenv().autoSkillXF == true do
-                                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    wait()
                                     keypress("0x37")
                                     keyrelease("0x37")
                                     wait(3.50)
@@ -1732,7 +1493,7 @@ if game.PlaceId == 11545598432 then
                         
                         function autoSkillCF()
                             while getgenv().autoSkillCF == true do
-                                wait(0.0000000000000000000000000000000000000000000000000000001)
+                wait()
                                 keypress("0x37")
                                 keyrelease("0x37")
                                 wait(3.50)
@@ -1747,7 +1508,7 @@ if game.PlaceId == 11545598432 then
                         
                             function autoSkillVF()
                                 while getgenv().autoSkillVF == true do
-                                    wait(0.0000000000000000000000000000000000000000000000000000001)
+                    wait()
                                     keypress("0x37")
                                     keyrelease("0x37")
                                     wait(3.50)
@@ -1758,6 +1519,142 @@ if game.PlaceId == 11545598432 then
                                     keyrelease("0x37")
                                     end
                                 end
+
+                                function autoSkillZB()
+                                    while getgenv().autoSkillZB == true do
+                                        wait()
+                                        keypress("0x34")
+                                        keyrelease("0x34")
+                                        keypress("0x39")
+                                        keyrelease("0x39")
+                                        wait(3.50)
+                                        keypress("0x5A")
+                                        keyrelease("0x5A")
+                                        wait(2.30)
+                                        keypress("0x39")
+                                        keyrelease("0x39")
+                                        keypress("0x34")
+                                        keyrelease("0x34")
+                                        end
+                                    end
+                                
+                                    function autoSkillXB()
+                                        while getgenv().autoSkillXB == true do
+                                            wait()
+                                            keypress("0x34")
+                                            keyrelease("0x34")
+                                            keypress("0x39")
+                                            keyrelease("0x39")
+                                            wait(3.50)
+                                            keypress("0x58")
+                                            keyrelease("0x58")
+                                            wait(2.30)
+                                            keypress("0x39")
+                                            keyrelease("0x39")
+                                            keypress("0x34")
+                                            keyrelease("0x34")
+                                            end
+                                        end
+                                
+                                
+                                function autoSkillCB()
+                                    while getgenv().autoSkillCB == true do
+                                        wait()
+                                        keypress("0x34")
+                                        keyrelease("0x34")
+                                        keypress("0x39")
+                                        keyrelease("0x39")
+                                        wait(3.50)
+                                        keypress("0x43")
+                                        keyrelease("0x43")
+                                        wait(2.30)
+                                        keypress("0x39")
+                                        keyrelease("0x39")
+                                        keypress("0x34")
+                                        keyrelease("0x34")
+                                        end
+                                    end
+                                
+                                
+                                    function autoSkillVB()
+                                        while getgenv().autoSkillVB == true do
+                                            wait()
+                                            keypress("0x34")
+                                            keyrelease("0x34")
+                                            wait()
+                                            keypress("0x39")
+                                            keyrelease("0x39")
+                                            wait(3.50)
+                                            keypress("0x56")
+                                            keyrelease("0x56")
+                                            wait(2.30)
+                                            keypress("0x39")
+                                            keyrelease("0x39")
+                                            wait()
+                                            keypress("0x34")
+                                            keyrelease("0x34")
+                                            end
+                                        end
+
+                                        function autoSHop()
+                                            while getgenv().autoSHop == true do
+                                                wait(420)
+                                                game:GetService("TeleportService"):Teleport(11545598432, LocalPlayer)
+                                            end
+                                        end
+                                    
+                                    function autoSummonBreath()
+                                        while getgenv().autoSummonBreath == true do
+                                        wait()
+                                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10.9755573, 250.301132, 3748.55518, 0.23819311, 6.73130671e-08, 0.971217811, -7.51982654e-08, 1, -5.08653706e-08, -0.971217811, -6.09181185e-08, 0.23819311)
+                                        keypress("0x45")
+                                        keyrelease("0x45")
+                                        wait()
+                                        end
+                                    end
+
+                                    function autoS100M()
+                                        while getgenv().autoS100M == true do
+                                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(722.618469, 104.359314, 2626.40039, -0.00487720966, 0, -0.999988139, 0, 1, 0, 0.999988139, 0, -0.00487720966)
+                                        end
+                                    end
+                                    
+                                    function autoST100T()
+                                        while getgenv().autoST100T == true do
+                                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(274.173676, 162.495438, 2360.12476, -0.951660633, 0, 0.307151347, 0, 1, 0, -0.307151347, 0, -0.951660633)
+                                        end
+                                    end
+                                    
+                                    function autoST1QD()
+                                        while getgenv().autoST1QD == true do
+                                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1262.4613, -260.499207, 2171.62769, 0.894750595, 0, 0.446566194, 0, 1, 0, -0.446566194, 0, 0.894750595)
+                                        end
+                                    end
+                                    
+                                    function autoD100T()
+                                        while getgenv().autoD100T == true do
+                                            wait()
+                                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-413.817261, 143.700317, 2850.18726, -0.00487720966, 0, -0.999988139, 0, 1, 0, 0.999988139, 0, -0.00487720966)
+                                        end
+                                    end
+                                    
+                                    function autoD1QD()
+                                        while getgenv().autoD1QD == true do
+                                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-199.738586, 312.071686, 3220.68311, -0.00487720966, 0, -0.999988139, 0, 1, 0, 0.999988139, 0, -0.00487720966)
+                                        end
+                                    end
+                                    
+                                    function autoC100T()
+                                        while getgenv().autoC100T == true do
+                                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-564.525391, 37.6805267, 739.559082, -0.984812617, 0, -0.173621148, 0, 1, 0, 0.173621148, 0, -0.984812617)
+                                        end
+                                    end
+                                    
+                                    function autoC1QD()
+                                        while getgenv().autoC1QD == true do
+                                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10.9499273, 278.351624, 3581.52515, -0.999983072, 0, -0.00586987333, 0, 1, 0, 0.00586987333, 0, -0.999983072)
+                                        end
+                                    end
         
         
     local Tab = Window:MakeTab({
@@ -1973,90 +1870,151 @@ if game.PlaceId == 11545598432 then
 
 
     local Tab = Window:MakeTab({
-        Name = "Auto Boss",
+        Name = "Auto Boss(Spawn)",
         Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     })
 
 
+-- Define a function to create the boss toggle
+local function CreateBossToggle(BOSS_NAME, position)
+    local isMovingToBoss = false
+    local bossSpawned = false
+    local bossConnection = nil
+
+    local function MoveToBoss(Mob)
+        while isMovingToBoss and Mob and Mob.Parent and Mob:FindFirstChild("Humanoid") do
+            wait()
+            if isMovingToBoss then
+                local playerCharacter = game.Players.LocalPlayer.Character
+                if playerCharacter and playerCharacter:FindFirstChild("HumanoidRootPart") then
+                    playerCharacter.HumanoidRootPart.CFrame = CFrame.new(position)
+                    playerCharacter:SetPrimaryPartCFrame(Mob.HumanoidRootPart.CFrame)
+                end
+            end
+        end
+    end
+
+    local function HandleBossSpawned(Boss)
+        if not bossSpawned and isMovingToBoss then
+            bossSpawned = true
+            coroutine.wrap(function()
+                MoveToBoss(Boss)
+            end)()
+        end
+    end
+
+    local function HandleBossRemoved()
+        isMovingToBoss = false
+        bossSpawned = false
+        if bossConnection then
+            bossConnection:Disconnect()
+        end
+    end
+
+    local function ToggleValueChanged(Value)
+        while Value do
+            local Boss = game.Workspace.Scriptable.Bosses:FindFirstChild(BOSS_NAME)
+            if Boss then
+                isMovingToBoss = true
+                coroutine.wrap(function()
+                    MoveToBoss(Boss)
+                end)()
+                bossConnection = Boss.ChildRemoved:Connect(HandleBossRemoved)
+            end
+            wait()
+        end
+        isMovingToBoss = false
+        bossSpawned = false
+        if bossConnection then
+            bossConnection:Disconnect()
+        end
+    end
+
+    return ToggleValueChanged
+end
+
+local bossPositions = {
+    _friezy = Vector3.new(1173.84851, 167.718689, 1795.86377),
+    _ape = Vector3.new(-1529.29602, 39.1222382, -171),
+    _desertBoss = Vector3.new(1549.32654, 24.2589684, -600.291321),
+    _arlongo = Vector3.new(2019.05786, 186.293869, -2704.44312),
+    _overhaul = Vector3.new(-487.526001, -612.916504, 775.115234),
+    _armoredTitan = Vector3.new(1971.35803, 218.063828, -2755.94312),
+    _handDemon = Vector3.new(-704.1297, 184.137543, -2253.7915),
+    _gyutaro = Vector3.new(10.7575665, 18.124176, 2837.58765, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+}
+
+for BOSS_NAME, position in pairs(bossPositions) do
+    local bossToggle = CreateBossToggle(BOSS_NAME, position)
+
     Tab:AddToggle({
-        Name = "Auto Kill Monkey",
+        Name = "Auto " .. BOSS_NAME, -- Change the toggle name to include the boss name
         Default = false,
         Callback = function(Value)
-            getgenv().autoMon = Value
-            autoMon()
+            -- Update the state based on the boss name
+            getgenv()["autoSkill" .. BOSS_NAME] = Value
+            -- Call the corresponding function
+            if Value then
+                bossToggle(true)
+            end
         end    
     })
 
+    spawn(function()
+        while true do
+            wait()
+            local Boss = game.Workspace.Scriptable.Bosses:FindFirstChild(BOSS_NAME)
+            if Boss then
+                HandleBossSpawned(Boss)
+            else
+                bossSpawned = false
+            end
+            wait()
+        end
+    end)
+end
 
-    Tab:AddToggle({
-        Name = "Auto Kill Overhaul",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoOver = Value
-            autoOver()
-        end    
+function autodaki()
+    while getgenv().autodaki == true do
+        wait() -- Espera por um curto período de tempo antes de executar a próxima iteração            
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(79.1562881, 44.001976, 2468.60083, 0.997301817, 0, 0.0734104663, 0, 1, 0, -0.0734104663, 0, 0.997301817)
+    
+        local ohString1 = "Equip"
+        local ohString2 = "Sword"
+        local ohBoolean3 = true
+    
+        game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
+    
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(79.1562881, 44.001976, 2468.60083, 0.997301817, 0, 0.0734104663, 0, 1, 0, -0.0734104663, 0, 0.997301817)
+    
+        local ohString1 = "TrainStat"
+        local ohString2 = "Sword"
+    
+        game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)            
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(79.1562881, 44.001976, 2468.60083, 0.997301817, 0, 0.0734104663, 0, 1, 0, -0.0734104663, 0, 0.997301817)
+        local ohString1 = "Equip"
+        local ohString2 = "Sword"
+        local ohBoolean3 = false
+    
+        game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
+end
+end
+
+local Tab = Window:MakeTab({
+    Name = "Auto Boss(Normal)",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+Tab:AddToggle({
+    Name = "Auto Daki",
+    Default = false,
+    Callback = function(Value)
+        getgenv().autodaki = Value
+        autodaki()
+    end    
     })
-
-
-    Tab:AddToggle({
-        Name = "Auto Kill Shukaku",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoShukaku = Value
-            autoShukaku()
-        end    
-    })
-
-
-    Tab:AddToggle({
-        Name = "Auto Kill Titan",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoTitan = Value
-            autoTitan()
-        end    
-    })
-
-
-    Tab:AddToggle({
-        Name = "Auto Kill Arlong",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoArlong = Value
-            autoArlong()
-        end    
-    })
-
-
-    Tab:AddToggle({
-        Name = "Auto Kill Hand Demon",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoHand = Value
-            autoHand()
-        end    
-    })
-
-
-    Tab:AddToggle({
-        Name = "Auto Kill Freeza",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoFreeza = Value
-            autoFreeza()
-        end    
-    })
-
-    Tab:AddToggle({
-        Name = "Auto Kill Pain",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoPain = Value
-            autoPain()
-        end    
-    })
-
 
     local Tab = Window:MakeTab({
         Name = "Auto Use Skill",
@@ -2145,7 +2103,7 @@ if game.PlaceId == 11545598432 then
     
 
     Tab:AddToggle({
-        Name = "Auto Skill Z (Use With Stand and Put on Key 5)",
+        Name = "Auto Skill Z (Use With Stand)",
         Default = false, 
         Callback = function(Value)
             getgenv().autoSkillZS = Value
@@ -2155,7 +2113,7 @@ if game.PlaceId == 11545598432 then
 
 
     Tab:AddToggle({
-        Name = "Auto Skill X (Use With Stand and Put on Key 5)",
+        Name = "Auto Skill X (Use With Stand)",
         Default = false,
         Callback = function(Value)
             getgenv().autoSkillXS = Value
@@ -2165,7 +2123,7 @@ if game.PlaceId == 11545598432 then
 
 
     Tab:AddToggle({
-        Name = "Auto Skill C (Use With Stand and Put on Key 5)",
+        Name = "Auto Skill C (Use With Stand)",
         Default = false,
         Callback = function(Value)
             getgenv().autoSkillCS = Value
@@ -2175,7 +2133,7 @@ if game.PlaceId == 11545598432 then
 
 
     Tab:AddToggle({
-        Name = "Auto Skill V (Use With Stand and Put on Key 5)",
+        Name = "Auto Skill V (Use With Stand)",
         Default = false,
         Callback = function(Value)
             getgenv().autoSkillVS = Value
@@ -2185,7 +2143,7 @@ if game.PlaceId == 11545598432 then
 
 
         Tab:AddToggle({
-            Name = "Auto Skill Z (Use With Quirk and Put on Key 6)",
+            Name = "Auto Skill Z (Use With Quirk)",
             Default = false, 
             Callback = function(Value)
                 getgenv().autoSkillZQ = Value
@@ -2195,7 +2153,7 @@ if game.PlaceId == 11545598432 then
     
     
         Tab:AddToggle({
-            Name = "Auto Skill X (Use With Quirk and Put on Key 6)",
+            Name = "Auto Skill X (Use With Quirk)",
             Default = false,
             Callback = function(Value)
                 getgenv().autoSkillXQ = Value
@@ -2205,7 +2163,7 @@ if game.PlaceId == 11545598432 then
     
     
         Tab:AddToggle({
-            Name = "Auto Skill C (Use With Quirk and Put on Key 6)",
+            Name = "Auto Skill C (Use With Quirk)",
             Default = false,
             Callback = function(Value)
                 getgenv().autoSkillCQ = Value
@@ -2215,7 +2173,7 @@ if game.PlaceId == 11545598432 then
     
     
         Tab:AddToggle({
-            Name = "Auto Skill V (Use With Quirk and Put on Key 6)",
+            Name = "Auto Skill V (Use With Quirk)",
             Default = false,
             Callback = function(Value)
                 getgenv().autoSkillVQ = Value
@@ -2225,7 +2183,7 @@ if game.PlaceId == 11545598432 then
 
 
             Tab:AddToggle({
-                Name = "Auto Skill Z (Use With Fruit and Put on key 7)",
+                Name = "Auto Skill Z (Use With Fruit)",
                 Default = false, 
                 Callback = function(Value)
                     getgenv().autoSkillZF = Value
@@ -2235,7 +2193,7 @@ if game.PlaceId == 11545598432 then
         
         
             Tab:AddToggle({
-                Name = "Auto Skill X (Use With Fruit and Put on key 7)",
+                Name = "Auto Skill X (Use With Fruit)",
                 Default = false,
                 Callback = function(Value)
                     getgenv().autoSkillXF = Value
@@ -2245,7 +2203,7 @@ if game.PlaceId == 11545598432 then
         
         
             Tab:AddToggle({
-                Name = "Auto Skill C (Use With Fruit and Put on key 7)",
+                Name = "Auto Skill C (Use With Fruit)",
                 Default = false,
                 Callback = function(Value)
                     getgenv().autoSkillCF = Value
@@ -2255,13 +2213,52 @@ if game.PlaceId == 11545598432 then
         
         
             Tab:AddToggle({
-                Name = "Auto Skill V (Use With Fruit and Put on key 7)",
+                Name = "Auto Skill V (Use With Fruit)",
                 Default = false,
                 Callback = function(Value)
                     getgenv().autoSkillVF = Value
                     autoSkillVF()
                 end    
                 })
+
+                Tab:AddToggle({
+                    Name = "Auto Skill Z (Use With Breathing)",
+                    Default = false, 
+                    Callback = function(Value)
+                        getgenv().autoSkillZB = Value
+                        autoSkillZB()
+                    end    
+                    })
+            
+            
+                Tab:AddToggle({
+                    Name = "Auto Skill X (Use With Breathing)",
+                    Default = false,
+                    Callback = function(Value)
+                        getgenv().autoSkillXB = Value
+                        autoSkillXB()
+                    end    
+                    })
+            
+            
+                Tab:AddToggle({
+                    Name = "Auto Skill C (Use With Breathing)",
+                    Default = false,
+                    Callback = function(Value)
+                        getgenv().autoSkillCB = Value
+                        autoSkillCB()
+                    end    
+                    })
+            
+            
+                Tab:AddToggle({
+                    Name = "Auto Skill V (Use With Breathing)",
+                    Default = false,
+                    Callback = function(Value)
+                        getgenv().autoSkillVB = Value
+                        autoSkillVB()
+                    end    
+                    })
 
     local Tab = Window:MakeTab({
         Name = "Auto Chest",
@@ -2356,6 +2353,30 @@ if game.PlaceId == 11545598432 then
     })
 
     Tab:AddButton({
+        Name = "Auto Tp Area Strength(1T)",
+        Callback = function(Value)
+            getgenv().autoST1T = Value
+            autoST1T()	
+        end    
+    })
+
+    Tab:AddButton({
+        Name = "Auto Tp Area Strength(100T)",
+        Callback = function(Value)
+            getgenv().autoST100T = Value
+            autoST100T()	
+        end    
+    })
+
+    Tab:AddButton({
+        Name = "Auto Tp Area Strength(1QD)",
+        Callback = function(Value)
+            getgenv().autoD1QD = Value
+            autoD1QD()	
+        end    
+    })
+
+    Tab:AddButton({
         Name = "Auto Tp Area Durability(100)",
         Callback = function(Value)
             getgenv().autoD100 = Value
@@ -2417,6 +2438,30 @@ if game.PlaceId == 11545598432 then
         Callback = function(Value)
             getgenv().autoD100B = Value
             autoD100B()	
+        end    
+    })
+    
+    Tab:AddButton({
+        Name = "Auto Tp Area Durability(1T)",
+        Callback = function(Value)
+            getgenv().autoD1T = Value
+            autoD1T()	
+        end    
+    })
+
+    Tab:AddButton({
+        Name = "Auto Tp Area Durability(100T)",
+        Callback = function(Value)
+            getgenv().autoD100T = Value
+            autoD100T()	
+        end    
+    })
+
+    Tab:AddButton({
+        Name = "Auto Tp Area Durability(1QD)",
+        Callback = function(Value)
+            getgenv().autoD1QD = Value
+            autoD1QD()	
         end    
     })
 
@@ -2486,6 +2531,30 @@ if game.PlaceId == 11545598432 then
     })
 
     Tab:AddButton({
+        Name = "Auto Tp Area Chakra(1T)",
+        Callback = function(Value)
+            getgenv().autoC1T = Value
+            autoC1T()	
+        end    
+    })
+
+    Tab:AddButton({
+        Name = "Auto Tp Area Chakra(100T)",
+        Callback = function(Value)
+            getgenv().autoC100T = Value
+            autoC100T()	
+        end    
+    })
+
+    Tab:AddButton({
+        Name = "Auto Tp Area Chakra(1QD)",
+        Callback = function(Value)
+            getgenv().autoC1QD = Value
+            autoC1QD()	
+        end    
+    })
+
+    Tab:AddButton({
         Name = "Auto Tp Area Speed(100)",
         Callback = function(Value)
             getgenv().autoS100 = Value
@@ -2521,7 +2590,7 @@ if game.PlaceId == 11545598432 then
     Tab:AddButton({
         Name = "Auto Tp Area Speed(10M)",
         Callback = function(Value)
-            getgenv().autoS10M = Value
+            getgenv().autoS100m = Value
             autoS10M()	
         end    
     })
@@ -2531,22 +2600,6 @@ if game.PlaceId == 11545598432 then
         Callback = function(Value)
             getgenv().autoS100m = Value
             autoS100M()	
-        end    
-    })
-
-    Tab:AddButton({
-        Name = "Auto Tp Area Speed(1B)",
-        Callback = function(Value)
-            getgenv().autoS1B = Value
-            autoS1B()	
-        end    
-    })
-
-    Tab:AddButton({
-        Name = "Auto Tp Area Speed(100B)",
-        Callback = function(Value)
-            getgenv().autoS100B = Value
-            autoS100B()	
         end    
     })
 
@@ -2586,22 +2639,21 @@ if game.PlaceId == 11545598432 then
         end    
     })
 
+    Tab:AddToggle({
+        Name = "Auto Summon Breathing",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSummonBreath = Value
+            autoSummonBreath()	
+        end    
+    })
+
 
     local Tab = Window:MakeTab({
         Name = "Misc",
         Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     })
-
-
-    Tab:AddButton({
-        Name = "Teleport To Endeavor",
-        Callback = function(Value)
-            getgenv().TeleporteE = Value
-            TeleporteE()
-        end    
-    })
-
 
     Tab:AddToggle({
         Name = "Auto Get Fruit(Use this without tp)",
@@ -2613,6 +2665,32 @@ if game.PlaceId == 11545598432 then
     })
 
 
+    Tab:AddToggle({
+        Name = "Auto Server Hop",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoSHop = Value
+            autoSHop()	
+        end    
+    })
+
+    Tab:AddToggle({
+        Name = "Auto Hit With Sword",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoHitS = Value
+            autoHitS()	
+        end    
+    })
+
+    Tab:AddToggle({
+        Name = "Auto Hit With Punch",
+        Default = false,
+        Callback = function(Value)
+            getgenv().autoHitP = Value
+            autoHitP()	
+        end    
+    })
     
     Tab:AddToggle({
         Name = "Auto Enter In Tournament",
@@ -2629,566 +2707,3 @@ if game.PlaceId == 11545598432 then
         v:Disable()
     end
     end
-
-
-
-if game.PlaceId == 14400427869 then
-    local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    local Window = OrionLib:MakeWindow({Name = "Trilha Hub | [🦸‍♂️UPDATE 1] Anime Fighting Simulator X", HidePremium = false, IntroText = "Trilha Hub", SaveConfig = true, ConfigFolder = "Trilha Hub"})
-    
-
-
-    
-
-
-    function autoHitP()
-        while getgenv().autoHitP == true do
-            local ohString1 = "Equip"
-            local ohString2 = "Strength"
-            local ohBoolean3 = true
-
-            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
-            local ohString1 = "TrainStat"
-            local ohString2 = "Strength"
-            
-            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-
-        end
-    end 
-
-
-    function autoHitS()
-        while getgenv().autoHitS == true do
-
-
-            local ohString1 = "Equip"
-            local ohString2 = "Sword"
-            local ohBoolean3 = true
-
-            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2, ohBoolean3)
-            local ohString1 = "TrainStat"
-            local ohString2 = "Sword"
-
-            game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
-
-        end
-    end    
-
-    function ETournament()
-        while getgenv().ETournament == true do
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1115.9834, 89.0894928, -1003.02203, 0.824801803, -2.5939098e-08, 0.565421939, 1.24542101e-08, 1, 2.77082339e-08, -0.565421939, -1.58119171e-08, 0.824801803)
-        wait(0.00000000000000000000000000000000000000000000000000000000000000000000000001)
-        game:GetService("TeleportService"):Teleport(11545598432, LocalPlayer) 
-        wait(0.00000000000000000000000000000000000000000000000000000000000000000000000001)
-
-        end
-    end
-
-
-        function autoSkillY()
-            while getgenv().autoSkillY== true do
-                wait(0.0000000000000000000000000000000000000000000000000000001)
-                keypress("0x59")
-                keyrelease("0x59")
-                end
-            end  
-        
-        
-            function autoSkillO()
-                while getgenv().autoSkillO == true do
-                    wait(0.0000000000000000000000000000000000000000000000000000001)
-                    keypress("0x4F")
-                    keyrelease("0x4F")
-                    end
-                end  
-        
-            function autoSkillT()
-                while getgenv().autoSkillT == true do
-                    wait(0.0000000000000000000000000000000000000000000000000000001)
-                    keypress("0x54")
-                    keyrelease("0x54")
-                    end
-                end  
-        
-                function autoSkillF()
-                while getgenv().autoSkillF == true do
-                    wait(0.0000000000000000000000000000000000000000000000000000001)
-                    keypress("0x34")
-                    keyrelease("0x34")
-                    wait(0.0000000000000000000000000000000000000000000000000000001)
-                    keypress("0x46")
-                    keyrelease("0x46")
-                    end
-                end  
-        
-            function autoSkillI()
-                while getgenv().autoSkillI == true do
-                    wait(0.0000000000000000000000000000000000000000000000000000001)
-                    keypress("0x34")
-                    keyrelease("0x34")
-                    wait(0.0000000000000000000000000000000000000000000000000000001)
-                    keypress("0x49")
-                    keyrelease("0x49")
-                    wait(120)
-                    end
-                end
-                
-                
-            function autoSkillU()
-                while getgenv().autoSkillU == true do
-                    wait(0.0000000000000000000000000000000000000000000000000000001)
-                    keypress("0x55")
-                    keyrelease("0x55")
-                    end
-                end
-        
-        
-            function autoSkillP()
-                while getgenv().autoSkillP == true do
-                    wait(5)
-                    keypress("0x50")
-                    keyrelease("0x50")
-                    wait(120)
-                    break
-                    end
-                 end
-        
-        
-                 function autoSkillR()
-                        while getgenv().autoSkillR == true do
-                            wait(0.0000000000000000000000000000000000000000000000000000001)
-                            keypress("0x34")
-                            keyrelease("0x34")
-                            wait(0.0000000000000000000000000000000000000000000000000000001)
-                            keypress("0x52")
-                            keyrelease("0x52")
-                            end
-                        end
-        
-        
-        function autoSkillZS()
-            while getgenv().autoSkillZS == true do
-                wait(0.0000000000000000000000000000000000000000000000000000001)
-                keypress("0x35")
-                keyrelease("0x35")
-                wait(1.35)
-                keypress("0x5A")
-                keyrelease("0x5A")
-                wait(0.0000000000000000000000000000000000000000000000000000001)
-                keypress("0x35")
-                keyrelease("0x35")
-                end
-            end
-        
-            function autoSkillXS()
-                while getgenv().autoSkillXS == true do
-                    wait(0.0000000000000000000000000000000000000000000000000000001)
-                    keypress("0x35")
-                    keyrelease("0x35")
-                    wait(1.35)
-                    keypress("0x58")
-                    keyrelease("0x58")
-                    wait(0.0000000000000000000000000000000000000000000000000000001)
-                    keypress("0x35")
-                    keyrelease("0x35")
-                    end
-                end
-        
-        
-        function autoSkillCS()
-            while getgenv().autoSkillCS == true do
-                wait(0.0000000000000000000000000000000000000000000000000000001)
-                keypress("0x35")
-                keyrelease("0x35")
-                wait(1.35)
-                keypress("0x43")
-                keyrelease("0x43")
-                wait(0.0000000000000000000000000000000000000000000000000000001)
-                keypress("0x35")
-                keyrelease("0x35")
-                end
-            end
-        
-        
-            function autoSkillVS()
-                while getgenv().autoSkillVS == true do
-                    wait(0.0000000000000000000000000000000000000000000000000000001)
-                    keypress("0x35")
-                    keyrelease("0x35")
-                    wait(1.35)
-                    keypress("0x56")
-                    keyrelease("0x56")
-                    wait(0.0000000000000000000000000000000000000000000000000000001)
-                    keypress("0x35")
-                    keyrelease("0x35")
-                    end
-                end
-        
-        
-                function autoSkillZQ()
-                    while getgenv().autoSkillZQ == true do
-                        wait(0.0000000000000000000000000000000000000000000000000000001)
-                        keypress("0x36")
-                        keyrelease("0x36")
-                        wait(0.1)
-                        keypress("0x5A")
-                        keyrelease("0x5A")
-                        wait(0.0000000000000000000000000000000000000000000000000000001)
-                        keypress("0x36")
-                        keyrelease("0x36")
-                        end
-                    end
-                
-                    function autoSkillXQ()
-                        while getgenv().autoSkillXQ == true do
-                            wait(0.0000000000000000000000000000000000000000000000000000001)
-                            keypress("0x36")
-                            keyrelease("0x36")
-                            wait(0.1)
-                            keypress("0x58")
-                            keyrelease("0x58")
-                            wait(0.0000000000000000000000000000000000000000000000000000001)
-                            keypress("0x36")
-                            keyrelease("0x36")
-                            end
-                        end
-                
-                
-                function autoSkillCQ()
-                    while getgenv().autoSkillCQ == true do
-                        wait(0.0000000000000000000000000000000000000000000000000000001)
-                        keypress("0x36")
-                        keyrelease("0x36")
-                        wait(0.1)
-                        keypress("0x43")
-                        keyrelease("0x43")
-                        wait(0.0000000000000000000000000000000000000000000000000000001)
-                        keypress("0x36")
-                        keyrelease("0x36")
-                        end
-                    end
-                
-                
-                    function autoSkillVQ()
-                        while getgenv().autoSkillVQ == true do
-                            wait(0.0000000000000000000000000000000000000000000000000000001)
-                            keypress("0x36")
-                            keyrelease("0x36")
-                            wait(0.1)
-                            keypress("0x56")
-                            keyrelease("0x56")
-                            wait(0.0000000000000000000000000000000000000000000000000000001)
-                            keypress("0x36")
-                            keyrelease("0x36")
-                            end
-                        end
-
-
-                        function autoSkillZF()
-                            while getgenv().autoSkillZF == true do
-                                wait(0.0000000000000000000000000000000000000000000000000000001)
-                                keypress("0x37")
-                                keyrelease("0x37")
-                                wait(3.50)
-                                keypress("0x5A")
-                                keyrelease("0x5A")
-                                wait(2.30)
-                                keypress("0x37")
-                                keyrelease("0x37")
-                                end
-                            end
-                        
-                            function autoSkillXF()
-                                while getgenv().autoSkillXF == true do
-                                    wait(0.0000000000000000000000000000000000000000000000000000001)
-                                    keypress("0x37")
-                                    keyrelease("0x37")
-                                    wait(3.50)
-                                    keypress("0x58")
-                                    keyrelease("0x58")
-                                    wait(2.30)
-                                    keypress("0x37")
-                                    keyrelease("0x37")
-                                    end
-                                end
-                        
-                        
-                        function autoSkillCF()
-                            while getgenv().autoSkillCF == true do
-                                wait(0.0000000000000000000000000000000000000000000000000000001)
-                                keypress("0x37")
-                                keyrelease("0x37")
-                                wait(3.50)
-                                keypress("0x43")
-                                keyrelease("0x43")
-                                wait(2.30)
-                                keypress("0x37")
-                                keyrelease("0x37")
-                                end
-                            end
-                        
-                        
-                            function autoSkillVF()
-                                while getgenv().autoSkillVF == true do
-                                    wait(0.0000000000000000000000000000000000000000000000000000001)
-                                    keypress("0x37")
-                                    keyrelease("0x37")
-                                    wait(3.50)
-                                    keypress("0x56")
-                                    keyrelease("0x56")
-                                    wait(2.30)
-                                    keypress("0x37")
-                                    keyrelease("0x37")
-                                    end
-                                end
-        
-        
-    local Tab = Window:MakeTab({
-        Name = "Main",
-        Icon = "rbxassetid://4483345998",
-        PremiumOnly = false
-    })
-    
-
-    Tab:AddToggle({
-        Name = "Auto Hit With Sword",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoHitS = Value
-            autoHitS()	
-        end    
-    })
-
-
-    Tab:AddToggle({
-        Name = "Auto Hit With Punch",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoHitP = Value
-            autoHitP()	
-        end    
-    })
-
-
-    Tab:AddToggle({
-        Name = "Auto Enter In World 1",
-        Default = false,
-        Callback = function(Value)
-            getgenv().ETournament = Value
-            ETournament()	
-        end    
-    })
-
-
-    local Tab = Window:MakeTab({
-        Name = "Auto Use Skill",
-        Icon = "rbxassetid://4483345998",
-        PremiumOnly = false
-    })
-    
-    Tab:AddToggle({
-        Name = "Auto Skill I (Use With Sword)",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoSkillI = Value
-            autoSkillI()
-        end    
-        })
-    
-
-    Tab:AddToggle({
-        Name = "Auto Skill P (Use With Mode)",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoSkillP = Value
-            autoSkillP()
-    end    
-    })
-
-
-    Tab:AddToggle({
-        Name = "Auto Skill Y",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoSkillY = Value
-            autoSkillY()
-    end    
-    })
-
-
-    Tab:AddToggle({
-        Name = "Auto Skill R",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoSkillR = Value
-            autoSkillR()
-        end    
-        })
-
-
-        Tab:AddToggle({
-            Name = "Auto Skill U",
-            Default = false,
-            Callback = function(Value)
-                getgenv().autoSkillU = Value
-                autoSkillU()
-    end    
-    })
-
-
-    Tab:AddToggle({
-        Name = "Auto Skill T",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoSkillT = Value
-            autoSkillT()
-        end    
-        })
-    
-
-    Tab:AddToggle({
-        Name = "Auto Skill O",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoSkillO = Value
-            autoSkillO()
-        end    
-        })
-
-
-    Tab:AddToggle({
-        Name = "Auto Skill F (Use With Sword)",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoSkillF = Value
-            autoSkillF()
-        end    
-        })
-    
-
-    Tab:AddToggle({
-        Name = "Auto Skill Z (Use With Stand and Put on Key 5)",
-        Default = false, 
-        Callback = function(Value)
-            getgenv().autoSkillZS = Value
-            autoSkillZS()
-        end    
-        })
-
-
-    Tab:AddToggle({
-        Name = "Auto Skill X (Use With Stand and Put on Key 5)",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoSkillXS = Value
-            autoSkillXS()
-        end    
-        })
-
-
-    Tab:AddToggle({
-        Name = "Auto Skill C (Use With Stand and Put on Key 5)",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoSkillCS = Value
-            autoSkillCS()
-        end    
-        })
-
-
-    Tab:AddToggle({
-        Name = "Auto Skill V (Use With Stand and Put on Key 5)",
-        Default = false,
-        Callback = function(Value)
-            getgenv().autoSkillVS = Value
-            autoSkillVS()
-        end    
-        })
-
-
-        Tab:AddToggle({
-            Name = "Auto Skill Z (Use With Quirk and Put on Key 6)",
-            Default = false, 
-            Callback = function(Value)
-                getgenv().autoSkillZQ = Value
-                autoSkillZQ()
-            end    
-            })
-    
-    
-        Tab:AddToggle({
-            Name = "Auto Skill X (Use With Quirk and Put on Key 6)",
-            Default = false,
-            Callback = function(Value)
-                getgenv().autoSkillXQ = Value
-                autoSkillXQ()
-            end    
-            })
-    
-    
-        Tab:AddToggle({
-            Name = "Auto Skill C (Use With Quirk and Put on Key 6)",
-            Default = false,
-            Callback = function(Value)
-                getgenv().autoSkillCQ = Value
-                autoSkillCQ()
-            end    
-            })
-    
-    
-        Tab:AddToggle({
-            Name = "Auto Skill V (Use With Quirk and Put on Key 6)",
-            Default = false,
-            Callback = function(Value)
-                getgenv().autoSkillVQ = Value
-                autoSkillVQ()
-            end    
-            })
-
-
-            Tab:AddToggle({
-                Name = "Auto Skill Z (Use With Fruit and Put on key 7)",
-                Default = false, 
-                Callback = function(Value)
-                    getgenv().autoSkillZF = Value
-                    autoSkillZF()
-                end    
-                })
-        
-        
-            Tab:AddToggle({
-                Name = "Auto Skill X (Use With Fruit and Put on key 7)",
-                Default = false,
-                Callback = function(Value)
-                    getgenv().autoSkillXF = Value
-                    autoSkillXF()
-                end    
-                })
-        
-        
-            Tab:AddToggle({
-                Name = "Auto Skill C (Use With Fruit and Put on key 7)",
-                Default = false,
-                Callback = function(Value)
-                    getgenv().autoSkillCF = Value
-                    autoSkillCF()
-                end    
-                })
-        
-        
-            Tab:AddToggle({
-                Name = "Auto Skill V (Use With Fruit and Put on key 7)",
-                Default = false,
-                Callback = function(Value)
-                    getgenv().autoSkillVF = Value
-                    autoSkillVF()
-                end    
-                })
-
-
-
-    for i,v in pairs(getconnections(game.Players.LocalPlayer.Idled)) do
-        v:Disable()
-    end
-    end
-    OrionLib:Init()
